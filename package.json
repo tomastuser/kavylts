@@ -1,7 +1,7 @@
 {
-  "name": "kavyl",
+  "name": "kavylts",
   "version": "1.0.0",
-  "description": "Frontend for the web of Kavyl in Typescript",
+  "description": "Kavyl webapp frontend in Typescript",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",

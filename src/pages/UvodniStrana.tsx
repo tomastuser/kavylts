@@ -29,7 +29,7 @@ const UvodniStrana = () => {
           <Uvod />
 
           <h1>Co je u nás nového?</h1>
-          {aktuality ? (
+          {aktuality && aktuality.length > 0 ? (
             <div
               style={{
                 marginBottom: '4vh',
@@ -52,6 +52,7 @@ const UvodniStrana = () => {
                   width: '15%',
                   padding: '0.8rem 1.8rem 0.8rem 1.8rem',
                   minWidth: '260px',
+                  marginTop: '5vh',
                 }}
                 to='/onas/aktuality'
               >

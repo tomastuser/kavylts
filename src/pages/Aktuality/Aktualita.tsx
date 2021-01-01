@@ -12,7 +12,7 @@ const Aktualita = ({ match, history }: RouteComponentProps<{ id: string }>) => {
   return (
     <Layout title={aktualita ? aktualita.Nazev : 'loading'}>
       <div className='mainOstatni'>
-        {aktuality && aktualita ? (
+        {aktuality && aktuality.length > 0 && aktualita ? (
           <div className='aktualityContainer'>
             <div
               className={`aktualita aktualitaPozadi${Math.floor(

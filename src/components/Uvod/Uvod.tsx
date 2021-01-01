@@ -25,6 +25,8 @@ const Uvod = () => {
           <br />
           spolku&nbsp; Kavyl !
         </div>
+      </div>
+      <div className='vitejteCont'>
         <div className={`vitejte2 ${counter === 1 ? 'active' : 'disabled'}`}>
           Vracíme &nbsp;dětem
           <br />
@@ -35,14 +37,16 @@ const Uvod = () => {
           a&nbsp;&nbsp; v &nbsp;lesích
         </div>
       </div>
-      <div
-        className='sipka'
-        onClick={() => window.scrollTo(0, window.innerHeight * 0.9)}
-        onKeyDown={() => window.scrollTo(0, window.innerHeight * 0.9)}
-        role='button'
-        tabIndex={0}
-      >
-        <img alt='sipka' src={sipkaB} />
+      <div className='vitejteCont'>
+        <div
+          className='sipka'
+          onClick={() => window.scrollTo(0, window.innerHeight * 0.9)}
+          onKeyDown={() => window.scrollTo(0, window.innerHeight * 0.9)}
+          role='button'
+          tabIndex={0}
+        >
+          <img alt='sipka' src={sipkaB} />
+        </div>
       </div>
     </div>
   );

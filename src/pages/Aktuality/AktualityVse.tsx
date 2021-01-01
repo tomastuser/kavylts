@@ -32,7 +32,7 @@ const Aktuality = ({ match }: RouteComponentProps<{ id: string }>) => {
   return (
     <Layout title='Aktuality'>
       <div className='mainOstatni'>
-        {aktuality ? (
+        {aktuality && aktuality.length > 0 ? (
           <div className='aktualityContainer'>
             <h1>Aktuality</h1>
             <br />

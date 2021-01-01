@@ -66,6 +66,9 @@ main a:hover {
 .mainText h1 {
   text-align: center;
 }
+.mainText h2 {
+  text-align: left;
+}
 
 .nazev {
   margin-bottom: 9vh;
@@ -356,7 +359,7 @@ tr:nth-child(even) {
   background-color: transparent;
 }
 .up {
-  padding: 5px 5px 3px 5px;
+  padding: 5px 12px 5px 12px;
   transform: rotate(180deg);
   color: black;
   border: solid;
@@ -364,6 +367,9 @@ tr:nth-child(even) {
     38 repeat;
   border-image-width: 20px;
   border-image-outset: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .up img {
   height: 4vh;
@@ -453,6 +459,7 @@ tr:nth-child(even) {
   background-color: #fdfdec;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   padding: 3vh 0 0vh 0;
   margin-bottom: -30vh;
 }
@@ -610,12 +617,11 @@ tr:nth-child(even) {
 }
 
 .sipka {
-  position: absolute;
   color: rgb(253, 253, 236);
   text-align: center;
-  bottom: 3vh;
-  right: 49vw;
-  padding: 10px 12px 4px 12px;
+  align-self: flex-end;
+  padding: 10px 12px 10px 12px;
+  margin-bottom: 2vh;
   cursor: pointer;
   border: solid;
   border-image: url('https://res.cloudinary.com/tomastuser/image/upload/v1596880464/caraNavB_eki38n.png')
@@ -623,13 +629,16 @@ tr:nth-child(even) {
   border-image-width: 23px;
   border-image-outset: 3px;
   background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sipka:hover {
   background-color: rgba(253, 253, 236, 0.2);
 }
 .sipka img {
-  height: 7vh;
+  height: 55px;
 }
 
 .vitejteCont {
@@ -641,6 +650,7 @@ tr:nth-child(even) {
   left: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 2.25rem;
   text-align: center;
   color: rgb(253, 253, 236);
@@ -1215,10 +1225,14 @@ tr:nth-child(even) {
     max-width: 80vw;
   }
   .vitejte1 {
-    left: 35%;
+    position: relative;
+    top: -6vh;
+    left: auto;
   }
   .vitejte2 {
-    left: 33%;
+    position: relative;
+    top: -3vh;
+    left: auto;
   }
   .girlanda {
     margin-bottom: -20vh;
@@ -1228,6 +1242,9 @@ tr:nth-child(even) {
 /* MOBILE NAV */
 
 @media screen and (max-width: 768px) {
+  .mainTextCont {
+    padding-bottom: 0;
+  }
   .nav {
     min-height: 10vh;
   }
@@ -1332,8 +1349,12 @@ tr:nth-child(even) {
     grid-template-columns: auto auto;
   }
 
+  .caraNadpis {
+    margin-bottom: 5vh;
+  }
+
   .sipka {
-    right: 46%;
+    right: 41%;
   }
   .aktualita {
     width: 70%;
@@ -1458,7 +1479,7 @@ tr:nth-child(even) {
     border-image: url('https://res.cloudinary.com/tomastuser/image/upload/v1596880464/caraNav_awl5dy.png')
       38 repeat;
     border-width: 20px;
-    border-image-outset: 3px;
+    border-image-outset: 2px;
   }
   .girlanda {
     margin-bottom: -10vh;
@@ -1510,12 +1531,6 @@ tr:nth-child(even) {
     text-transform: uppercase;
     font-size: 2em;
   }
-  .vitejte1 {
-    left: 30%;
-  }
-  .vitejte2 {
-    left: 26%;
-  }
   .Footer2 {
     grid-template-columns: 1fr 12fr 1fr;
   }
@@ -1541,12 +1556,6 @@ tr:nth-child(even) {
     background-size: 400%;
     background-position: 96% 60%;
   }
-  .vitejte1 {
-    left: 16%;
-  }
-  .vitejte2 {
-    left: 10%;
-  }
   .aktualita {
     width: 90%;
   }
@@ -1568,13 +1577,11 @@ tr:nth-child(even) {
     padding-right: 5vw;
   }
   .girlanda img {
-    width: 105%;
-    overflow: hidden;
+    width: 100%;
   }
   .girlanda {
     padding-top: 5vh;
     margin-bottom: -5vh;
-    z-index: 20;
   }
   .FooterM {
     padding-top: 5vh;

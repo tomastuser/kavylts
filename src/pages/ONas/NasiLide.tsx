@@ -15,7 +15,7 @@ const NasiLide = () => {
   return (
     <Layout title='Naši lidé'>
       <div className='mainOstatni'>
-        {clenove ? (
+        {clenove && clenove.length > 0 ? (
           <div className='nasTym'>
             <h1>Naši lidé</h1>
             <div className='tymContainer'>

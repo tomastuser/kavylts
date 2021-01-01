@@ -9,7 +9,7 @@ interface Props {
 
 const AktualitaZastupce = ({ aktualita, pozadi }: Props) => (
   <div className={`aktualitaZastupce ${pozadi}`}>
-    <Link to={`/aktuality/${aktualita.id}`}>
+    <Link to={`/onas/aktualita/${aktualita.id}`}>
       <h4 className='aktualitaZastupceNadpis'>{aktualita.Nazev}</h4>
     </Link>
     <div className='aktualitaZastupceText'>
@@ -17,8 +17,8 @@ const AktualitaZastupce = ({ aktualita, pozadi }: Props) => (
         className='aktualitaZastupceTeloTextu'
         dangerouslySetInnerHTML={{
           __html:
-            aktualita.Text.substr(0, 500) +
-            (aktualita.Text.length > 500 ? ' ...' : ''),
+            aktualita.Text.substr(0, 280) +
+            (aktualita.Text.length > 300 ? ' ...' : ''),
         }}
       />
     </div>

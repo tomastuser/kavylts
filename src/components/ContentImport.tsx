@@ -6,7 +6,7 @@ const ContentImport = ({ nazev }: { nazev: string }) => {
   const { stranky } = useContext(dbContext);
   return (
     <>
-      {stranky ? (
+      {stranky && stranky.length > 0 ? (
         stranky.map((stranka) =>
           stranka.Nazev === nazev ? (
             <>

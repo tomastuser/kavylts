@@ -55,7 +55,7 @@ const App = () => {
           <Switch>
             <Route path='/' exact component={UvodniStrana} />
             <Route path='/onas' exact component={KdoJsme} />
-            <Route path='/onas/KdoJsme' exact component={KdoJsme} />
+            <Route path='/onas/kdojsme' exact component={KdoJsme} />
             <Route path='/onas/aktuality' exact component={AktualityVse} />
             <Route exact path='/onas/aktualita/:id' component={Aktualita} />
             <Route

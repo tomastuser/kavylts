@@ -4,6 +4,8 @@ import Layout from '../../components/Layout';
 import { dbContext } from '../../utils/dbContext';
 import { AktualitaIF } from '../../utils/dbInterfaces';
 
+import Loading from '../../components/Loading';
+
 const Foto = ({ match, history }: RouteComponentProps<{ id: string }>) => {
   const { aktuality } = useContext(dbContext);
   let aktualita: AktualitaIF | undefined = aktuality?.find((akt) => {
@@ -45,9 +47,7 @@ const Foto = ({ match, history }: RouteComponentProps<{ id: string }>) => {
             </div>
           </div>
         ) : (
-          <div className='loading'>
-            <h3>NAHRÁVÁNÍ...</h3>
-          </div>
+          <Loading />
         )}
       </div>
     </Layout>

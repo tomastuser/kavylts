@@ -214,9 +214,9 @@ tr:nth-child(even) {
 }
 
 .caraNav {
-  width: 130%;
+  width: 115%;
   position: fixed;
-  top: 9.3vh;
+  top: 9.6vh;
   left: -2vw;
   pointer-events: none;
   overflow: hidden;
@@ -359,17 +359,18 @@ tr:nth-child(even) {
   background-color: transparent;
 }
 .up {
+  position: relative;
   padding: 5px 12px 5px 12px;
   transform: rotate(180deg);
   color: black;
   border: solid;
-  border-image: url('https://res.cloudinary.com/tomastuser/image/upload/v1596880464/caraNav_awl5dy.png')
-    38 repeat;
-  border-image-width: 20px;
+  border-image: url('./public/caraNav12R.png') 40.3 repeat;
+  border-image-width: 21px;
   border-image-outset: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 5;
 }
 .up img {
   height: 4vh;
@@ -393,6 +394,7 @@ tr:nth-child(even) {
 }
 
 .FooterD {
+  position: relative;
   background-color: #f4e1ff;
   display: flex;
   width: 100%;
@@ -401,10 +403,9 @@ tr:nth-child(even) {
   padding: 25vh 8vw 3vh 8vw;
   border-top: solid;
   border-bottom: solid;
-  border-image: url('https://res.cloudinary.com/tomastuser/image/upload/v1596880464/caraNav_awl5dy.png')
-    38 repeat;
-  border-width: 20px;
-  border-image-outset: 1px;
+  border-image: url('./public/caraNav12R.png') 38 repeat;
+  border-width: 21px;
+  border-image-outset: 3px;
 }
 
 .Footer ul {
@@ -434,9 +435,8 @@ tr:nth-child(even) {
 
 .footerInfo {
   border: solid;
-  border-image: url('https://res.cloudinary.com/tomastuser/image/upload/v1596880464/caraNav_awl5dy.png')
-    38 repeat;
-  border-width: 20px;
+  border-image: url('./public/caraNav12R.png') 41.1 repeat;
+  border-width: 21px;
   border-image-outset: 3px;
   background-repeat: no-repeat;
   background-image: url(./public/LH_ramecek_foto.png),
@@ -464,6 +464,7 @@ tr:nth-child(even) {
   margin-bottom: -30vh;
 }
 .girlanda img {
+  z-index: 6;
   width: 80%;
 }
 
@@ -632,6 +633,7 @@ tr:nth-child(even) {
   display: flex;
   justify-content: center;
   align-items: center;
+  pointer-events: all;
 }
 
 .sipka:hover {
@@ -820,7 +822,7 @@ tr:nth-child(even) {
   cursor: default;
 }
 .pageLinkDisabled:hover {
-  background-color: #ebebc7;
+  background-color: transparent;
 }
 
 .pageItem:first-child .pageLink {
@@ -851,7 +853,7 @@ tr:nth-child(even) {
   text-align: left;
   margin: 1vw;
   border: solid;
-  border-image: url(./public/caraNav12.png) 38 repeat;
+  border-image: url(./public/caraNav12S.png) 41.1 repeat;
   border-width: 20px;
   border-image-outset: -20px;
   background-color: #fdfdec;
@@ -975,7 +977,7 @@ tr:nth-child(even) {
   width: 30%;
   margin: 1vw;
   border: solid;
-  border-image: url(./public/caraNav12.png) 38 repeat;
+  border-image: url(./public/caraNav12S.png) 41.1 repeat;
   border-width: 20px;
   border-image-outset: -20px;
   background-color: #fdfdec;
@@ -1035,12 +1037,38 @@ tr:nth-child(even) {
 }
 
 .loading {
-  background-color: #fdfdec;
   display: flex;
+  flex-direction: column;
   height: 50vh;
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: black;
+}
+
+.loading h3 {
+  text-transform: uppercase;
+  margin-bottom: 0.5vh;
+  margin-top: 0vh;
+}
+
+.loadingMsg {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.loadingKruh {
+  animation: rotation 6s infinite linear;
+  margin-top: -3vh;
+  margin-bottom: 4vh;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .zastupce {
@@ -1092,7 +1120,6 @@ tr:nth-child(even) {
 
 .clenTymu {
   grid-area: auto;
-  margin-bottom: 4vh;
 }
 
 .clenTymu h1 {

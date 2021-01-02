@@ -4,6 +4,9 @@ import ClenTymu from '../../components/Tym/ClenTymu';
 import { dbContext } from '../../utils/dbContext';
 import { ClenIF } from '../../utils/dbInterfaces';
 
+import Loading from '../../components/Loading';
+import Zaklad from '../../components/Zaklad';
+
 const NasiLide = () => {
   const { clenove } = useContext(dbContext);
 
@@ -15,9 +18,9 @@ const NasiLide = () => {
   return (
     <Layout title='Naši lidé'>
       <div className='mainOstatni'>
+        <Zaklad nazev='Naši lidé' />
         {clenove && clenove.length > 0 ? (
           <div className='nasTym'>
-            <h1>Naši lidé</h1>
             <div className='tymContainer'>
               <div className='tym'>
                 {serazeniOdNejvyssiho()
@@ -29,9 +32,7 @@ const NasiLide = () => {
             </div>
           </div>
         ) : (
-          <div className='loading'>
-            <h3>NAHRÁVÁNÍ...</h3>
-          </div>
+          <Loading />
         )}
       </div>
     </Layout>

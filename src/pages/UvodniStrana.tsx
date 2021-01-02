@@ -6,6 +6,7 @@ import AktualitaZastupce from '../components/AktualitaZastupce';
 import Layout from '../components/Layout';
 import { dbContext } from '../utils/dbContext';
 import { AktualitaIF } from '../utils/dbInterfaces';
+import Loading from '../components/Loading';
 
 const UvodniStrana = () => {
   const { aktuality } = useContext(dbContext);
@@ -60,9 +61,7 @@ const UvodniStrana = () => {
               </Link>
             </div>
           ) : (
-            <div className='loading'>
-              <h3>NAHRÁVÁNÍ...</h3>
-            </div>
+            <Loading />
           )}
         </div>
         <div className='pozadiPrazdneContainer'>

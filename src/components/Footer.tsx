@@ -34,10 +34,12 @@ const Footer = () => {
         <div className='footerInfo'>
           <ul>
             <li>
-              <h4>
-                <FontAwesomeIcon icon={faPaperPlane} size='1x' fixedWidth />
-                &nbsp; info@lesnikavyl.cz
-              </h4>
+              <a href='mailto:info@lesnikavyl.cz'>
+                <h4>
+                  <FontAwesomeIcon icon={faPaperPlane} size='1x' fixedWidth />
+                  &nbsp; info@lesnikavyl.cz
+                </h4>
+              </a>
             </li>
             <li>
               <h4>
@@ -48,10 +50,12 @@ const Footer = () => {
               </h4>
             </li>
             <li>
-              <h4>
-                <FontAwesomeIcon icon={faPhone} size='1x' fixedWidth />
-                &nbsp;777 145 343
-              </h4>
+              <a href='tel:+420777145343'>
+                <h4>
+                  <FontAwesomeIcon icon={faPhone} size='1x' fixedWidth />
+                  &nbsp;777 145 343
+                </h4>
+              </a>
             </li>
             <li>
               <h4>
@@ -68,6 +72,7 @@ const Footer = () => {
             <img
               src='https://www.lesnikavyl.cz/images/loga/givt.jpg'
               alt='GIVT - Podporuji Kavyl'
+              <a href='tel:+420777145343'>
             />
           </a>
         </div>
@@ -84,10 +89,12 @@ const Footer = () => {
         <div className='footerInfo'>
           <ul>
             <li>
-              <h4>
-                <FontAwesomeIcon icon={faPaperPlane} size='1x' fixedWidth />
-                &nbsp; info@lesnikavyl.cz
-              </h4>
+              <a href='mailto:info@lesnikavyl.cz'>
+                <h4>
+                  <FontAwesomeIcon icon={faPaperPlane} size='1x' fixedWidth />
+                  &nbsp; info@lesnikavyl.cz
+                </h4>
+              </a>
             </li>
             <li>
               <h4>
@@ -96,10 +103,12 @@ const Footer = () => {
               </h4>
             </li>
             <li>
-              <h4>
-                <FontAwesomeIcon icon={faPhone} size='1x' fixedWidth />
-                &nbsp;777 145 343
-              </h4>
+              <a href='tel:+420777145343'>
+                <h4>
+                  <FontAwesomeIcon icon={faPhone} size='1x' fixedWidth />
+                  &nbsp;777 145 343
+                </h4>
+              </a>
             </li>
             <li>
               <h4>

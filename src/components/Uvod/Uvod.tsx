@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import sipkaB from '../../public/sipkaB.png';
+import kruh from '../../public/kruh.png';
 
 const Uvod = () => {
   const [counter, setCounter] = useState(0);

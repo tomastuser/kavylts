@@ -3,6 +3,7 @@ import { Link, RouteComponentProps } from 'react-router-dom';
 import Layout from '../../components/Layout';
 import { dbContext } from '../../utils/dbContext';
 import { AktualitaIF } from '../../utils/dbInterfaces';
+import Loading from '../../components/Loading';
 
 const Aktualita = ({ match, history }: RouteComponentProps<{ id: string }>) => {
   const { aktuality } = useContext(dbContext);
@@ -50,9 +51,7 @@ const Aktualita = ({ match, history }: RouteComponentProps<{ id: string }>) => {
             </div>
           </div>
         ) : (
-          <div className='loading'>
-            <h3>NAHRÁVÁNÍ...</h3>
-          </div>
+          <Loading />
         )}
       </div>
     </Layout>

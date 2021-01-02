@@ -7,6 +7,8 @@ import Layout from '../../components/Layout';
 import { dbContext } from '../../utils/dbContext';
 import { AktualitaIF } from '../../utils/dbInterfaces';
 
+import Loading from '../../components/Loading';
+
 const Aktuality = ({ match }: RouteComponentProps<{ id: string }>) => {
   const { aktuality } = useContext(dbContext);
   const [currentPage, setCurrentPage] = useState(
@@ -54,9 +56,7 @@ const Aktuality = ({ match }: RouteComponentProps<{ id: string }>) => {
             />
           </div>
         ) : (
-          <div className='loading'>
-            <h3>NAHRÁVÁM...</h3>
-          </div>
+          <Loading />
         )}
       </div>
     </Layout>

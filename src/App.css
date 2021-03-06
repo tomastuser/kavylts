@@ -6,6 +6,15 @@
   scroll-behavior: smooth;
 }
 
+:root {
+  --text: #353535;
+  --white: #ffffff;
+  --back: #fdfdec;
+  --buttonHover: #f3ceb0;
+  --link: #8f9d3e;
+  --linkHover: #768133;
+}
+
 @font-face {
   font-family: 'Marianka';
   src: local('Marianka'), url(./public/Marianka-Regular.ttf) format('truetype');
@@ -43,25 +52,27 @@ main a:hover {
 }
 
 .mainOstatni {
-  padding-top: 5vh;
-  padding-bottom: 10vh;
-  background-color: #fdfdec;
+  background-color: var(--back);
+}
+
+.mainOstatniNadpis {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
 }
 
 .mainTextCont {
   display: grid;
   grid-template-columns: 1fr 1.5fr 1fr;
-  padding-top: 1vh;
-  padding-bottom: 10vh;
-  background-color: #fdfdec;
+  background-color: var(--back);
   min-height: 80vh;
 }
 
 .mainText {
-  text-align: justify;
+  text-align: left;
   grid-column: 2/3;
-  z-index: 2;
-  margin-top: 6vh;
+  padding-top: 4vh;
+  padding-bottom: 20vh;
+  background-color: var(--back);
 }
 .mainText h1 {
   text-align: center;
@@ -71,7 +82,8 @@ main a:hover {
 }
 
 .nazev {
-  margin-bottom: 9vh;
+  margin-top: 2vh;
+  margin-bottom: 7vh;
 }
 
 main p {
@@ -79,44 +91,49 @@ main p {
 }
 
 main h1 {
-  margin-top: 4vh;
   margin-bottom: 5vh;
   font-family: Marianka, 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
-  color: black;
+  color: rgb(43, 43, 43);
 }
 main h2 {
-  margin-top: 5vh;
   margin-bottom: 3vh;
   font-family: Marianka, 'Roboto Condensed', sans-serif;
+  font-size: 2rem;
   text-transform: uppercase;
-  color: black;
+  color: rgb(43, 43, 43);
 }
 
 main h3 {
-  margin-top: 2vh;
   margin-bottom: 2vh;
   font-family: Marianka, 'Roboto Condensed', sans-serif;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  color: black;
+  color: rgb(43, 43, 43);
 }
 
 main h4 {
+  margin-bottom: 2vh;
   font-family: Marianka, 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
-  color: black;
+  font-size: 1rem;
+  color: rgb(43, 43, 43);
 }
 
 main ul {
-  margin-bottom: 2vh;
-  margin-left: 3vw;
+  margin-left: 1rem;
+  margin-bottom: 3vh;
+}
+main ol {
+  margin-left: 2rem;
+  margin-bottom: 3vh;
 }
 
 button {
   border-style: none;
   font-size: 1em;
   line-height: 1.5;
-  color: #fdfdec;
+  color: var(--back);
   text-decoration: none;
 }
 
@@ -126,7 +143,7 @@ button {
   width: 100%;
   color: black;
   cursor: pointer;
-  background-color: #fdfdec;
+  background-color: var(--back);
   font-family: Marianka, 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   padding: 0.5rem;
@@ -173,7 +190,7 @@ tr:nth-child(even) {
   position: fixed;
   width: 100vw;
   max-height: 10vh;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: left;
   align-items: center;
   background: rgba(253, 253, 236, 0.9);
@@ -192,7 +209,8 @@ tr:nth-child(even) {
 }
 
 .navLinks {
-  width: 50%;
+  width: 70%;
+  margin-right: 2rem;
 }
 
 .navLinkActive {
@@ -225,18 +243,26 @@ tr:nth-child(even) {
 .logo {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-top: 1.5vh;
+  align-content: center;
+}
+
+.logoText {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .logoText img {
   max-height: 8vh;
-  margin-top: 0.5vh;
+  position: absolute;
+  margin-top: 0;
+  top: 0.6vh;
 }
 
 .logoCont {
-  height: 7vh;
+  height: 8vh;
   margin-right: 1vw;
+  margin-left: 2rem;
 }
 
 .logo img {
@@ -308,7 +334,7 @@ tr:nth-child(even) {
 .navSpacerAtTheTop {
   width: 100%;
   min-height: 10vh;
-  background-color: #fdfdec;
+  background-color: var(--back);
 }
 
 .sideNavSpacer {
@@ -344,7 +370,7 @@ tr:nth-child(even) {
 /* PAGES */
 
 .Footer2 {
-  background-color: #fdfdec;
+  background-color: var(--back);
   display: grid;
   grid-template-columns: 1fr 20fr 1fr;
   align-items: center;
@@ -444,7 +470,7 @@ tr:nth-child(even) {
     url(./public/PD_ramecek_foto.png);
   background-position: left top, left bottom, right top, right bottom;
   background-size: 25px;
-  background-color: #fdfdec;
+  background-color: var(--back);
   padding: 1.2vw 2.3vw 1vw 2.3vw;
 }
 
@@ -456,7 +482,7 @@ tr:nth-child(even) {
 }
 
 .girlanda {
-  background-color: #fdfdec;
+  background-color: var(--back);
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -473,14 +499,13 @@ tr:nth-child(even) {
 }
 
 .caraNadpis {
-  position: relative;
   width: 100%;
   text-align: center;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 
 .uvodAktuality {
-  background-color: #fdfdec;
+  background-color: var(--back);
   padding-bottom: 8vh;
 }
 
@@ -512,13 +537,13 @@ tr:nth-child(even) {
   background-size: 25px;
 
   grid-column: 2/3;
-  color: #fdfdec;
+  color: var(--back);
   font-size: 1.3em;
 }
 
 .pozadiPrazdne h1 {
   margin-bottom: 2vh;
-  color: #fdfdec;
+  color: var(--back);
 }
 
 .odrazkyUvodContainer {
@@ -553,10 +578,10 @@ tr:nth-child(even) {
   text-align: center;
 }
 .odrazkyUvodContainer h3 {
-  color: #fdfdec;
+  color: var(--back);
 }
 .odrazkyUvodContainer a {
-  color: #fdfdec;
+  color: var(--back);
 }
 .odrazkyGrid1 {
   text-align: right;
@@ -775,7 +800,9 @@ tr:nth-child(even) {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fdfdec;
+  background-color: var(--back);
+  padding-top: 5vh;
+  padding-bottom: 20vh;
 }
 
 .pagination {
@@ -856,7 +883,7 @@ tr:nth-child(even) {
   border-image: url(./public/caraNav12S.png) 41.1 repeat;
   border-width: 20px;
   border-image-outset: -20px;
-  background-color: #fdfdec;
+  background-color: var(--back);
   padding: 4vh;
 }
 
@@ -980,7 +1007,7 @@ tr:nth-child(even) {
   border-image: url(./public/caraNav12S.png) 41.1 repeat;
   border-width: 20px;
   border-image-outset: -20px;
-  background-color: #fdfdec;
+  background-color: var(--back);
   text-align: left;
   padding: 4vh;
   overflow: auto;
@@ -1025,7 +1052,7 @@ tr:nth-child(even) {
 }
 .aktualita .button {
   flex-grow: 0;
-  background-color: #fdfdec;
+  background-color: var(--back);
   color: black;
   width: 100%;
   font-weight: normal;
@@ -1078,7 +1105,7 @@ tr:nth-child(even) {
 .fotoContainer {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  background-color: #fdfdec;
+  background-color: var(--back);
 }
 
 .foto {
@@ -1110,9 +1137,14 @@ tr:nth-child(even) {
 
 /* CLENOVE TYMU */
 
+.nasTym {
+  background-color: var(--back);
+}
+
 .tym {
   padding-left: 5vw;
   padding-right: 5vw;
+  padding-bottom: 20vh;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 5vw 5vw;
@@ -1122,8 +1154,24 @@ tr:nth-child(even) {
   grid-area: auto;
 }
 
+.profilFoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilFotoTecky {
+  width: 2.8vw !important;
+}
+.profilFotoTecky img {
+  width: 100%;
+}
+
 .clenTymu h1 {
   margin-bottom: 3vh;
+}
+.clenTymu h3 {
+  font-size: 1.3rem;
 }
 
 .clenTymu img {
@@ -1134,12 +1182,18 @@ tr:nth-child(even) {
 
 .clenTymuText {
   margin-top: 3vh;
-  text-align: justify;
+  text-align: left;
 }
 
 /* BIG TABLET NAV */
 
 @media screen and (max-width: 1280px) {
+  .logoCont {
+    height: 7vh;
+  }
+  .logo {
+    width: 30%;
+  }
   .navLinks {
     width: 70%;
   }
@@ -1212,20 +1266,15 @@ tr:nth-child(even) {
   }
 
   .logoCont {
-    height: 5vh;
-    margin-top: 0.5vh;
-    margin-right: 0.5vw;
+    height: 6vh;
+    margin-left: 2vw;
   }
   .logo {
     width: 30%;
-    justify-content: space-between;
-    margin-left: 1vw;
-    margin-top: 1vh;
   }
-
   .logoText img {
-    max-height: 6vh;
-    margin-top: 0.5vh;
+    position: relative;
+    max-height: 6.5vh;
   }
   .caraNav {
     width: 200%;
@@ -1269,6 +1318,9 @@ tr:nth-child(even) {
 /* MOBILE NAV */
 
 @media screen and (max-width: 768px) {
+  .mainOstatniNadpis {
+    grid-template-columns: 1fr 5fr 1fr;
+  }
   .mainTextCont {
     padding-bottom: 0;
   }
@@ -1292,16 +1344,16 @@ tr:nth-child(even) {
     font-size: 2.9vh;
   }
   .logoCont {
-    height: 7vh;
-    margin-top: 0vh;
-    margin-right: 0vw;
-  }
-  .logoText img {
-    max-height: 8vh;
-    margin-top: 0.5vh;
+    height: 8vh;
+    margin-right: 1rem;
+    margin-left: 0;
   }
   .logo {
-    margin-top: 1.5vh;
+    width: 50%;
+  }
+  .logoText img {
+    max-height: 7.5vh;
+    margin-top: 0.5vh;
   }
   .navLinks a {
     width: 100%;
@@ -1348,16 +1400,6 @@ tr:nth-child(even) {
   .spacer {
     display: block;
     width: 25%;
-  }
-
-  .logo {
-    justify-content: center;
-    width: 100%;
-  }
-
-  .logoText {
-    text-align: center;
-    margin-left: 2vw;
   }
 
   .caraNav {
@@ -1566,6 +1608,9 @@ tr:nth-child(even) {
 /* SMALL MOBILE NAV */
 
 @media screen and (max-width: 450px) {
+  .mainOstatniNadpis {
+    grid-template-columns: 1fr 8fr 1fr;
+  }
   .logo {
     margin-left: -2vw;
   }

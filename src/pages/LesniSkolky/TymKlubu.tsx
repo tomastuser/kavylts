@@ -4,32 +4,34 @@ import Loading from '../../components/Loading';
 import ClenTymu from '../../components/Tym/ClenTymu';
 import caraNadpis from '../../public/cara_nadpis.png';
 import { dbContext } from '../../utils/dbContext';
-import { ClenIF } from '../../utils/dbInterfaces';
+import { ClenKlubuIF } from '../../utils/dbInterfaces';
 
-const NasiLide = () => {
-  const { clenove } = useContext(dbContext);
+const TymKlubu = () => {
+  const { clenoveKlubu } = useContext(dbContext);
 
   const serazeniOdNejvyssiho = () => {
-    return [].slice.call(clenove).sort((a: ClenIF, b: ClenIF) => {
-      return Number(b.id) - Number(a.id);
-    });
+    return [].slice
+      .call(clenoveKlubu)
+      .sort((a: ClenKlubuIF, b: ClenKlubuIF) => {
+        return b.Poradi - a.Poradi;
+      });
   };
   return (
-    <Layout title='Naši lidé'>
+    <Layout title='Tým klubu'>
       <div className='mainOstatni'>
         <div className='nasTym'>
           <div className='mainOstatniNadpis'>
             <div className='mainText' style={{ paddingBottom: '5vh' }}>
-              <h1 className='nazev'>Náš tým</h1>
+              <h1 className='nazev'>Tým klubu</h1>
               <img className='caraNadpis' alt='caraNadpis' src={caraNadpis} />
             </div>
           </div>
-          {clenove && clenove.length > 0 ? (
+          {clenoveKlubu && clenoveKlubu.length > 0 ? (
             <div className='tymContainer'>
               <div className='tym'>
                 {serazeniOdNejvyssiho()
                   .reverse()
-                  .map((clen: ClenIF) => (
+                  .map((clen: ClenKlubuIF) => (
                     <ClenTymu key={clen.id} clen={clen} />
                   ))}
               </div>
@@ -43,4 +45,4 @@ const NasiLide = () => {
   );
 };
 
-export default NasiLide;
+export default TymKlubu;

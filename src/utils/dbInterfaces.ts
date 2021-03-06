@@ -11,9 +11,17 @@ interface ClenIF {
   Popis: string;
   id: string;
 }
+interface ClenKlubuIF {
+  Jmeno: string;
+  Pozice: string;
+  Image: { url: string };
+  Popis: string;
+  id: string;
+  Poradi: number;
+}
 interface StrankaIF {
   Nazev: string;
   Text: string;
 }
 
-export { AktualitaIF, ClenIF, StrankaIF };
+export { AktualitaIF, ClenIF, ClenKlubuIF, StrankaIF };

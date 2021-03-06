@@ -72,7 +72,6 @@ const Footer = () => {
             <img
               src='https://www.lesnikavyl.cz/images/loga/givt.jpg'
               alt='GIVT - Podporuji Kavyl'
-              <a href='tel:+420777145343'>
             />
           </a>
         </div>

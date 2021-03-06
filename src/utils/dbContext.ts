@@ -1,8 +1,14 @@
 import { createContext } from 'react';
-import { AktualitaIF, ClenIF, StrankaIF } from './dbInterfaces';
+import { AktualitaIF, ClenIF, ClenKlubuIF, StrankaIF } from './dbInterfaces';
 
 let aktuality: AktualitaIF[] | undefined;
 let clenove: ClenIF[] | undefined;
+let clenoveKlubu: ClenKlubuIF[] | undefined;
 let stranky: StrankaIF[] | undefined;
 
-export const dbContext = createContext({ aktuality, clenove, stranky });
+export const dbContext = createContext({
+  aktuality,
+  clenove,
+  clenoveKlubu,
+  stranky,
+});

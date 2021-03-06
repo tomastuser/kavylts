@@ -36,7 +36,7 @@ const Aktuality = ({ match }: RouteComponentProps<{ id: string }>) => {
       <div className='mainOstatni'>
         {aktuality && aktuality.length > 0 ? (
           <div className='aktualityContainer'>
-            <h1>Aktuality</h1>
+            <h1 className='nazev'>Aktuality</h1>
             <br />
             <div className='aktuality'>
               {aktualityZde.map((aktualita: AktualitaIF, index: number) => (

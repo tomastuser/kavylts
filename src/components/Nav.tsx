@@ -46,9 +46,46 @@ function Nav() {
     },
     {
       name: 'Lesní školky',
-      path: '/lesniskolky',
+      path: '/lesniskolky/historie',
       id: '2',
-      subNavLinks: [],
+      subNavLinks: [
+        {
+          name: 'Historie a současnost',
+          path: '/lesniskolky/historie',
+        },
+        {
+          name: 'Lesní mateřské školy',
+          path: '/lesniskolky/lms',
+        },
+        {
+          name: 'Lesní klub Stromečci',
+          path: '/lesniskolky/stromecci',
+        },
+        {
+          name: 'Tým klubu',
+          path: '/lesniskolky/tym',
+        },
+        {
+          name: 'Ceník a stravování',
+          path: '/lesniskolky/cenik',
+        },
+        {
+          name: 'Program klubu',
+          path: '/lesniskolky/programklubu',
+        },
+        {
+          name: 'Praktické informace',
+          path: '/lesniskolky/praktickeinformace',
+        },
+        {
+          name: 'Zápis do klubu',
+          path: '/lesniskolky/zapis',
+        },
+        {
+          name: 'Dokumenty',
+          path: '/lesniskolky/dokumenty',
+        },
+      ],
     },
     {
       name: 'Tábory',
@@ -87,6 +124,10 @@ function Nav() {
         {
           name: 'Volno- časové aktivity',
           path: '/dalsiaktivity/volnocas',
+        },
+        {
+          name: 'Tipy pro rodiče',
+          path: '/dalsiaktivity/tipyprorodice',
         },
         {
           name: 'Pronájem jurty',
@@ -134,7 +175,6 @@ function Nav() {
           role='presentation'
         />
         <div className='spacer' />
-
         <div
           onClick={() => setNavOpen(false)}
           onKeyDown={() => setNavOpen(false)}

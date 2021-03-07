@@ -31,6 +31,7 @@ body {
 
 body a {
   text-decoration: none;
+  word-break: break-all;
 }
 
 a:focus,
@@ -932,7 +933,7 @@ tr:nth-child(even) {
   border: solid;
   border-image: url(./public/caraNav12S.png) 41.1 repeat;
   border-width: 20px;
-  border-image-outset: -20px;
+  /* border-image-outset: -20px; */
   background-color: var(--back);
   padding: 4vh;
 }

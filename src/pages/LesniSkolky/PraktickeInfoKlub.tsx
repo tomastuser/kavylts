@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import FotoCont from '../../components/FotoCont';
 import ContentImport from '../../components/ContentImport';
+import ContentImportSmall from '../../components/ContentImportSmall';
 
 const PraktickeInfoKlub = () => {
   return (
@@ -10,7 +11,7 @@ const PraktickeInfoKlub = () => {
         <div className='mainText'>
           <ContentImport nazev='Praktické informace klubu' />
           <FotoCont name='coSSebou.jpg' alt='Lesní školky' />
-          <ContentImport nazev='Praktické informace klubu 2' />
+          <ContentImportSmall nazev='Praktické informace klubu 2' />
           <FotoCont name='satky.jpg' alt='Lesní školky' />
         </div>
       </div>

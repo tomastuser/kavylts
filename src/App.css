@@ -1036,15 +1036,6 @@ tr:nth-child(even) {
   margin-bottom: 2vh;
 }
 
-.aktualitaImgCont {
-  background-repeat: no-repeat;
-  background-image: url(./public/LH_ramecek_foto.png),
-    url(./public/LD_ramecek_foto.png), url(./public/PH_ramecek_foto.png),
-    url(./public/PD_ramecek_foto.png);
-  background-position: left top, left bottom, right top, right bottom;
-  background-size: 25px;
-}
-
 .aktualitaText {
   padding-top: 2vh;
   margin-bottom: 4vh;
@@ -1054,7 +1045,6 @@ tr:nth-child(even) {
 .aktualita img {
   max-height: 50vh;
   max-width: 100%;
-  border-radius: 60px;
 }
 
 .aktualita .button:hover {
@@ -1116,6 +1106,7 @@ tr:nth-child(even) {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   background-color: var(--back);
+  padding-bottom: 18vh;
 }
 
 .foto {
@@ -1132,17 +1123,16 @@ tr:nth-child(even) {
 
 .fotoImgCont {
   background-repeat: no-repeat;
-  background-image: url(./public/LH_ramecek_foto.png),
+  /* background-image: url(./public/LH_ramecek_foto.png),
     url(./public/LD_ramecek_foto.png), url(./public/PH_ramecek_foto.png),
     url(./public/PD_ramecek_foto.png);
-  background-position: left top, left bottom, right top, right bottom;
+  background-position: left top, left bottom, right top, right bottom; */
   background-size: 25px;
 }
 .fotoImgCont img {
   max-height: 70vh;
   max-width: 50vw;
   cursor: pointer;
-  border-radius: 60px;
 }
 
 /* CLENOVE TYMU */

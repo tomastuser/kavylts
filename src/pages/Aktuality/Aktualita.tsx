@@ -23,18 +23,13 @@ const Aktualita = ({ match, history }: RouteComponentProps<{ id: string }>) => {
               <h2 className='aktualitaNadpis'>{aktualita.Nazev}</h2>
               <div className='aktualitaTelo'>
                 <div className='aktualitaImg'>
-                  <div className='aktualitaImgCont'>
-                    {aktualita.Image && (
-                      <Link to={`/onas/aktualita/${aktualita.id}/foto`}>
-                        <div>
-                          <img
-                            src={aktualita.Image.url}
-                            alt={aktualita.Nazev}
-                          />
-                        </div>
-                      </Link>
-                    )}
-                  </div>
+                  {aktualita.Image && (
+                    <Link to={`/onas/aktualita/${aktualita.id}/foto`}>
+                      <div>
+                        <img src={aktualita.Image.url} alt={aktualita.Nazev} />
+                      </div>
+                    </Link>
+                  )}
                 </div>
                 <div
                   dangerouslySetInnerHTML={{ __html: aktualita.Text }}

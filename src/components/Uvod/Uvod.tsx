@@ -18,7 +18,14 @@ const Uvod = () => {
           <img alt='   ' src='https://lesnikavyl.cz/images/uvod.jpg' />
         </div>
       </div>
-      <div className='vitejteCont'>
+      <div className='vitejtePruh'>
+        <h2>
+          Vítejte na&nbsp; stránkách
+          <br />
+          spolku&nbsp; Kavyl !
+        </h2>
+      </div>
+      {/* <div className='vitejteCont'>
         <div className={`vitejte1 ${counter === 0 ? 'active' : 'disabled'}`}>
           Vítejte
           <br />
@@ -37,7 +44,7 @@ const Uvod = () => {
           <br />
           a&nbsp;&nbsp; v &nbsp;lesích
         </div>
-      </div>
+      </div> */}
       <div className='vitejteCont'>
         <div
           className='sipka'

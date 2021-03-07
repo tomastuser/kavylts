@@ -159,7 +159,7 @@ function Nav() {
   ) => {
     const subs = [...subNavLinksOpen];
     const currentId = Number(e.currentTarget.id) - 1;
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 769) {
       subs[currentId] = !subs[currentId];
     }
     setSubNavLinksOpen(subs);
@@ -200,7 +200,7 @@ function Nav() {
           <ul>
             {navLinks.map((link) => (
               <li key={link.name}>
-                {window.innerWidth < 768 ? (
+                {window.innerWidth < 769 ? (
                   link.subNavLinks.length > 0 ? (
                     <a
                       className='navLink pointer'
@@ -237,7 +237,7 @@ function Nav() {
                     <li
                       key={subLink.name}
                       className={
-                        window.innerWidth < 768
+                        window.innerWidth < 769
                           ? subNavLinksOpen[Number(link.id) - 1]
                             ? 'subNavLi subNavActive'
                             : 'subNavLi'

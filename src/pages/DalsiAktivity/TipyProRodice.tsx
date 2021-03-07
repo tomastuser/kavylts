@@ -9,7 +9,6 @@ const TipyProRodice = () => {
     <Layout title='Tipy pro rodiče'>
       <div className='mainTextCont'>
         <div className='mainText'>
-          <Zaklad nazev='Tipy pro rodiče' />
           <ContentImport nazev='Tipy pro rodiče' />
           {/* <FotoCont name='cenik.jpg' alt='TipyProRodice' /> */}
         </div>

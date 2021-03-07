@@ -18,7 +18,7 @@ const AktualitaZastupce = ({ aktualita, pozadi }: Props) => (
         dangerouslySetInnerHTML={{
           __html:
             aktualita.Text.substr(0, 280) +
-            (aktualita.Text.length > 280 ? ' ...' : ''),
+            (aktualita.Text.length > 300 ? ' ...' : ''),
         }}
       />
     </div>

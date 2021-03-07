@@ -9,7 +9,7 @@ const ProgramKlubu = () => {
       <div className='mainTextCont'>
         <div className='mainText'>
           <ContentImport nazev='Program klubu' />
-          <FotoCont name='PODZ.jpg' alt='Lesní školky' />
+          <FotoCont name='sona.jpg' alt='Lesní školky' />
         </div>
       </div>
     </Layout>

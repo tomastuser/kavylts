@@ -9,7 +9,7 @@ const Zapis = () => {
       <div className='mainTextCont'>
         <div className='mainText'>
           <ContentImport nazev='Zápis' />
-          <FotoCont name='PODZ.jpg' alt='Lesní školky' />
+          <FotoCont name='malovaniNaStromy.jpg' alt='Lesní školky' />
         </div>
       </div>
     </Layout>

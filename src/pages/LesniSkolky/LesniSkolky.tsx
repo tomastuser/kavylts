@@ -10,6 +10,8 @@ const LesniSkolky = () => {
         <div className='mainText'>
           <ContentImport nazev='Lesní kluby a lesní mateřské školy' />
           <FotoCont name='PODZ.jpg' alt='Lesní školky' />
+          <ContentImport nazev='Lesní kluby a lesní mateřské školy 2' />
+          <FotoCont name='JUR.jpg' alt='Jurta' />
         </div>
       </div>
     </Layout>

@@ -9,7 +9,7 @@ const Stromecci = () => {
       <div className='mainTextCont'>
         <div className='mainText'>
           <ContentImport nazev='Stromečci' />
-          <FotoCont name='PODZ.jpg' alt='Lesní školky' />
+          <FotoCont name='repa.jpg' alt='Lesní školky' />
         </div>
       </div>
     </Layout>

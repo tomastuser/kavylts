@@ -9,7 +9,7 @@ const CenikKlubu = () => {
       <div className='mainTextCont'>
         <div className='mainText'>
           <ContentImport nazev='Ceník a stravování' />
-          <FotoCont name='PODZ.jpg' alt='Lesní školky' />
+          <FotoCont name='babovicky.jpg' alt='Lesní školky' />
         </div>
       </div>
     </Layout>

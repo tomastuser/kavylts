@@ -73,7 +73,7 @@ main a:hover {
   text-align: left;
   grid-column: 2/3;
   padding-top: 4vh;
-  padding-bottom: 20vh;
+  padding-bottom: 18vh;
   background-color: var(--back);
 }
 .mainText h1 {
@@ -170,6 +170,7 @@ table {
 td {
   padding: 0.3vw;
   padding-right: 2vw;
+  white-space: nowrap;
 }
 tr:nth-child(even) {
   background-color: #f0f0de;
@@ -1315,11 +1316,17 @@ tr:nth-child(even) {
 /* MOBILE NAV */
 
 @media screen and (max-width: 768px) {
+  td {
+    white-space: normal;
+  }
   .mainOstatniNadpis {
     grid-template-columns: 1fr 5fr 1fr;
   }
   .mainTextCont {
     padding-bottom: 0;
+  }
+  .mainText {
+    padding-bottom: 12vh;
   }
   .nav {
     min-height: 10vh;

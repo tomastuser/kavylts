@@ -785,9 +785,12 @@ tr:nth-child(even) {
   padding-bottom: 4vh;
 }
 
+.kontaktContM ul {
+  list-style: none;
+}
+
 .kontaktContM {
   display: none;
-  list-style: none;
 }
 
 .kontaktContD {
@@ -795,6 +798,11 @@ tr:nth-child(even) {
   grid-template-columns: 1fr 1fr;
   grid-gap: 8vh;
   text-align: left;
+}
+
+.zakladKontakt {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .kontaktContD ul {
@@ -853,6 +861,7 @@ tr:nth-child(even) {
   background-color: var(--back);
   padding-top: 5vh;
   padding-bottom: 20vh;
+  overflow-x: hidden;
 }
 
 .pagination {
@@ -1359,6 +1368,9 @@ tr:nth-child(even) {
     top: -3vh;
     left: auto;
   }
+  .profilFotoTecky {
+    width: 4vw !important;
+  }
 }
 
 /* MOBILE NAV */
@@ -1607,6 +1619,12 @@ tr:nth-child(even) {
   .kontaktContD {
     display: none;
   }
+
+  .zakladKontakt {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
   .kontaktContM {
     display: flex;
     flex-direction: column;
@@ -1617,6 +1635,12 @@ tr:nth-child(even) {
     flex-direction: column;
     text-align: center;
   }
+
+  .kontaktB {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
   .mapouterM {
     display: block;
     float: none;
@@ -1647,6 +1671,9 @@ tr:nth-child(even) {
   }
   .Footer2 {
     grid-template-columns: 1fr 12fr 1fr;
+  }
+  .profilFotoTecky {
+    width: 6vw !important;
   }
 }
 
@@ -1712,5 +1739,8 @@ tr:nth-child(even) {
   }
   .Footer2 {
     grid-template-columns: 1fr 5fr 1fr;
+  }
+  .profilFotoTecky {
+    width: 10vw !important;
   }
 }

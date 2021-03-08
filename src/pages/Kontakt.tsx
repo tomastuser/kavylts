@@ -8,7 +8,9 @@ function Kontakt() {
     <Layout title='Kontakt'>
       <div className='mainTextCont'>
         <div className='mainText'>
-          <Zaklad nazev='Kontakt' />
+          <div className='zakladKontakt'>
+            <Zaklad nazev='Kontakt' />
+          </div>
           <div className='kontaktContD'>
             <div className='kontaktA'>
               <ContentImportSmall nazev='Kontakt1' />
@@ -41,6 +43,9 @@ function Kontakt() {
           </div>
 
           <div className='kontaktContM'>
+            <div className='kontaktB'>
+              <ContentImportSmall nazev='Kontakt2' />
+            </div>
             <div className='kontaktA'>
               <ContentImportSmall nazev='Kontakt1' />
               <div className='mapouterM'>
@@ -65,9 +70,6 @@ function Kontakt() {
                   }}
                 />
               </div>
-            </div>
-            <div className='kontaktB'>
-              <ContentImportSmall nazev='Kontakt2' />
             </div>
           </div>
         </div>

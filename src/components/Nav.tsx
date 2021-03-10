@@ -66,10 +66,6 @@ function Nav() {
           path: '/lesniskolky/tym',
         },
         {
-          name: 'Ceník a stravování',
-          path: '/lesniskolky/cenik',
-        },
-        {
           name: 'Program klubu',
           path: '/lesniskolky/programklubu',
         },

@@ -44,7 +44,7 @@ import { dbContext } from './utils/dbContext';
 import Stromecci from './pages/LesniSkolky/Stromecci';
 import Historie from './pages/LesniSkolky/Historie';
 import TymKlubu from './pages/LesniSkolky/TymKlubu';
-import CenikKlubu from './pages/LesniSkolky/CenikKlubu';
+// import CenikKlubu from './pages/LesniSkolky/CenikKlubu';
 import ProgramKlubu from './pages/LesniSkolky/ProgramKlubu';
 import PraktickeInfoKlub from './pages/LesniSkolky/PraktickeInfoKlub';
 import DokumentyKlub from './pages/LesniSkolky/DokumentyKlub';
@@ -93,7 +93,7 @@ const App = () => {
             <Route exact path='/lesniskolky/lms' component={LesniSkolky} />
             <Route exact path='/lesniskolky/stromecci' component={Stromecci} />
             <Route exact path='/lesniskolky/tym' component={TymKlubu} />
-            <Route exact path='/lesniskolky/cenik' component={CenikKlubu} />
+            {/* <Route exact path='/lesniskolky/cenik' component={CenikKlubu} /> */}
             <Route
               exact
               path='/lesniskolky/programklubu'

@@ -41,7 +41,7 @@ import {
   StrankaIF,
 } from './utils/dbInterfaces';
 import { dbContext } from './utils/dbContext';
-import Stromecci from './pages/LesniSkolky/Stromecci';
+import Jezerka from './pages/LesniSkolky/Jezerka';
 import Historie from './pages/LesniSkolky/Historie';
 import TymKlubu from './pages/LesniSkolky/TymKlubu';
 // import CenikKlubu from './pages/LesniSkolky/CenikKlubu';
@@ -91,7 +91,7 @@ const App = () => {
             <Route exact path='/lesniskolky' component={Historie} />
             <Route exact path='/lesniskolky/historie' component={Historie} />
             <Route exact path='/lesniskolky/lms' component={LesniSkolky} />
-            <Route exact path='/lesniskolky/stromecci' component={Stromecci} />
+            <Route exact path='/lesniskolky/jezerka' component={Jezerka} />
             <Route exact path='/lesniskolky/tym' component={TymKlubu} />
             {/* <Route exact path='/lesniskolky/cenik' component={CenikKlubu} /> */}
             <Route

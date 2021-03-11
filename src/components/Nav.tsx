@@ -58,8 +58,8 @@ function Nav() {
           path: '/lesniskolky/lms',
         },
         {
-          name: 'Lesní klub Stromečci',
-          path: '/lesniskolky/stromecci',
+          name: 'Lesní klub Jezerka',
+          path: '/lesniskolky/jezerka',
         },
         {
           name: 'Tým klubu',

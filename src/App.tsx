@@ -61,7 +61,7 @@ const App = () => {
     'https://kavyl.herokuapp.com/stranky'
   );
   let clenoveKlubu: ClenKlubuIF[] | undefined = useFetch(
-    'https://stromik.herokuapp.com/lide'
+    'https://kavyl.herokuapp.com/lide-klubs'
   );
 
   return (

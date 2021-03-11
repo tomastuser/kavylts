@@ -9,13 +9,13 @@ const PraktickeInfoKlub = () => {
     <Layout title='Praktické informace'>
       <div className='mainTextCont'>
         <div className='mainText'>
-          <ContentImport nazev='Ceník a stravování' />
+          <ContentImport nazev='Praktické informace klubu' />
           <FotoCont name='babovicky.jpg' alt='Lesní školky' />
-          <ContentImportSmall nazev='Ceník a stravování 2' />
-          <br />
-          <ContentImportSmall nazev='Praktické informace klubu' />
-          <FotoCont name='coSSebou.jpg' alt='Lesní školky' />
           <ContentImportSmall nazev='Praktické informace klubu 2' />
+          <br />
+          <ContentImportSmall nazev='Praktické informace klubu 3' />
+          <FotoCont name='coSSebou.jpg' alt='Lesní školky' />
+          <ContentImportSmall nazev='Praktické informace klubu 4' />
           <FotoCont name='satky.jpg' alt='Lesní školky' />
         </div>
       </div>

@@ -42,10 +42,14 @@ function Nav() {
           name: 'Podporují nás',
           path: '/onas/sponzori',
         },
+        {
+          name: 'Nabídka práce',
+          path: '/onas/nabidkaprace',
+        },
       ],
     },
     {
-      name: 'Lesní školky',
+      name: 'LK Jezerka',
       path: '/lesniskolky/historie',
       id: '2',
       subNavLinks: [

@@ -31,15 +31,15 @@ import Kontakt from './pages/Kontakt';
 
 import Foto from './pages/Aktuality/Foto';
 import ScrollToTop from './utils/ScrollToTop';
-import useFetch from './utils/useFetch';
+// import useFetch from './utils/useFetch';
 import PageNotFound from './pages/404';
 
-import {
-  AktualitaIF,
-  ClenIF,
-  ClenKlubuIF,
-  StrankaIF,
-} from './utils/dbInterfaces';
+// import {
+//   AktualitaIF,
+//   ClenIF,
+//   ClenKlubuIF,
+//   StrankaIF,
+// } from './utils/dbInterfaces';
 import { dbContext } from './utils/dbContext';
 import Jezerka from './pages/LesniSkolky/Jezerka';
 import Historie from './pages/LesniSkolky/Historie';
@@ -49,20 +49,22 @@ import ProgramKlubu from './pages/LesniSkolky/ProgramKlubu';
 import PraktickeInfoKlub from './pages/LesniSkolky/PraktickeInfoKlub';
 import DokumentyKlub from './pages/LesniSkolky/DokumentyKlub';
 import Zapis from './pages/LesniSkolky/Zapis';
+import NabidkaPrace from './pages/ONas/NabidkaPrace';
+import { aktuality, clenove, clenoveKlubu, stranky } from './mockedData';
 
 const App = () => {
-  let aktuality: AktualitaIF[] | undefined = useFetch(
-    'https://kavyl.herokuapp.com/aktuality/'
-  );
-  let clenove: ClenIF[] | undefined = useFetch(
-    'https://kavyl.herokuapp.com/lide'
-  );
-  let stranky: StrankaIF[] | undefined = useFetch(
-    'https://kavyl.herokuapp.com/stranky'
-  );
-  let clenoveKlubu: ClenKlubuIF[] | undefined = useFetch(
-    'https://kavyl.herokuapp.com/lide-klubs'
-  );
+  // let aktuality: AktualitaIF[] | undefined = useFetch(
+  //   'https://kavyl.herokuapp.com/aktuality/'
+  // );
+  // let clenove: ClenIF[] | undefined = useFetch(
+  //   'https://kavyl.herokuapp.com/lide'
+  // );
+  // let stranky: StrankaIF[] | undefined = useFetch(
+  //   'https://kavyl.herokuapp.com/stranky'
+  // );
+  // let clenoveKlubu: ClenKlubuIF[] | undefined = useFetch(
+  //   'https://kavyl.herokuapp.com/lide-klubs'
+  // );
 
   return (
     <Router>
@@ -87,6 +89,7 @@ const App = () => {
             <Route path='/onas/ohlasy' exact component={Ohlasy} />
             <Route path='/onas/dokumenty' exact component={Dokumenty} />
             <Route path='/onas/sponzori' exact component={Sponzori} />
+            <Route path='/onas/nabidkaprace' exact component={NabidkaPrace} />
 
             <Route exact path='/lesniskolky' component={Historie} />
             <Route exact path='/lesniskolky/historie' component={Historie} />

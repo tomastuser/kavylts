@@ -1,22 +1,22 @@
 interface AktualitaIF {
   Nazev: string;
-  id: string;
-  Image: { url: string };
+  id: number;
+  Image: { url: string } | null;
   Text: string;
 }
 interface ClenIF {
   Jmeno: string;
   Pozice: string;
-  Image: { url: string };
+  Image: { url: string } | null;
   Popis: string;
-  id: string;
+  id: number;
 }
 interface ClenKlubuIF {
   Jmeno: string;
   Pozice: string;
-  Image: { url: string };
+  Image: { url: string } | null;
   Popis: string;
-  id: string;
+  id: number;
   Poradi: number;
 }
 interface StrankaIF {

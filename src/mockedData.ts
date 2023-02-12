@@ -4383,9 +4383,83 @@ export const aktuality = [
     },
   },
   {
+    id: 88,
+    Nazev: 'PF 2023',
+    Text: '<p>Přejeme krásné svátky a do nového roku pevná přátelství, zdraví a hodně sil!</p>',
+    created_by: {
+      id: 1,
+      firstname: 'Mariánka',
+      lastname: 'Admin',
+      username: 'Mariánka',
+    },
+    updated_by: {
+      id: 1,
+      firstname: 'Mariánka',
+      lastname: 'Admin',
+      username: 'Mariánka',
+    },
+    created_at: '2022-11-15T16:37:19.154Z',
+    updated_at: '2022-11-15T16:37:19.166Z',
+    Image: {
+      name: 'NÁHLED_pf23_upravene2_gj0xwb',
+      ext: '.jpg',
+      mime: 'image/jpeg',
+      url: 'https://res.cloudinary.com/marianka/image/upload/v1671793330/N%C3%81HLED_pf23_upravene2_gj0xwb.jpg',
+      previewUrl: null,
+      provider: 'cloudinary',
+      created_by: 1,
+      updated_by: 1,
+      created_at: '2022-11-15T16:37:12.570Z',
+      updated_at: '2022-11-15T16:37:12.603Z',
+    },
+  },
+  {
     id: 86,
     Nazev: 'Projektové dny pro školy',
     Text: '<p>Milé paní učitelky,</p><p>srdečně zveme vaše třídy na výukové environmentální programy u nás na hájence! Na naší zahradě i v blízkém lese máme celoročně připravený pestrý výběr témat. Na své si přijdou děti od 3 do 11 let. Podrobnosti najdete <a href="/enviroprogramy">zde</a>.</p><p>Těšíme se na vás po celý školní rok!</p>',
+    created_by: {
+      id: 1,
+      firstname: 'Mariánka',
+      lastname: 'Admin',
+      username: 'Mariánka',
+    },
+    updated_by: {
+      id: 1,
+      firstname: 'Mariánka',
+      lastname: 'Admin',
+      username: 'Mariánka',
+    },
+    created_at: '2022-09-29T16:16:39.316Z',
+    updated_at: '2022-09-29T16:18:18.645Z',
+    Image: null,
+  },
+  {
+    id: 86,
+    Nazev: 'Projektové dny pro školy',
+    Text: '<p>Milé paní učitelky,</p><p>srdečně zveme vaše třídy na výukové environmentální programy u nás na hájence! Na naší zahradě i v blízkém lese máme celoročně připravený pestrý výběr témat. Na své si přijdou děti od 3 do 11 let. Podrobnosti najdete <a href="/enviroprogramy">zde</a>.</p><p>Těšíme se na vás po celý školní rok!</p>',
+    created_by: {
+      id: 1,
+      firstname: 'Mariánka',
+      lastname: 'Admin',
+      username: 'Mariánka',
+    },
+    updated_by: {
+      id: 1,
+      firstname: 'Mariánka',
+      lastname: 'Admin',
+      username: 'Mariánka',
+    },
+    created_at: '2022-09-29T16:16:39.316Z',
+    updated_at: '2022-09-29T16:18:18.645Z',
+    Image: null,
+  },
+  {
+    id: 89,
+    Nazev: 'Řez ovocných stromů',
+    Text: `<p>Chcete se naučit řezu stromů?</p> <p>Srdečně zveme na praktický workshop s potulným sadařem Janem Budkou.</p><p> 
+    Kdy: v sobotu 18. 2. od 9 h</p>
+    <p>Kde: u nás na pozořické hájence</p>
+    <p>Přihlašovat se můžete <a href="https://1url.cz/tr0kF">zde</a>.</p>`,
     created_by: {
       id: 1,
       firstname: 'Mariánka',
@@ -5242,7 +5316,7 @@ export const stranky = [
   {
     id: 4,
     Nazev: 'Dokumenty',
-    Text: '<ul><li><a href="/files/stanovy_listopad_2021.pdf">Stanovy</a></li><li><a href="https://www.lesnims.cz/lesni-ms/standardy-kvality.html">Standardy kvality lesních MŠ</a></li><li><a href="/files/kavyl_letak.jpg">Leták o Kavylu</a></li></ul><h3>Výroční zprávy:</h3><ul><li><a href="/files/KAVYL_VZ2015.pdf">2015</a></li><li><a href="/files/KAVYL_VZ2016.pdf">2016</a></li><li><a href="/files/KAVYL_VZ2017.pdf">2017</a></li><li><a href="/files/KAVYL_VZ2018.pdf">2018</a></li><li><a href="/files/KAVYL_VZ2019.pdf">2019</a></li><li><a href="/files/KAVYL_VZ2020.pdf">2020</a></li><li><a href="/files/KAVYL_VZ2021.pdf">2021</a></li></ul>',
+    Text: '<ul><li><a href="/files/Kavyl_stanovy_2022.pdf">Stanovy</a></li><li><a href="https://www.lesnims.cz/lesni-ms/standardy-kvality.html">Standardy kvality lesních MŠ</a></li><li><a href="/files/kavyl_letak.jpg">Leták o Kavylu</a></li></ul><h3>Výroční zprávy:</h3><ul><li><a href="/files/KAVYL_VZ2015.pdf">2015</a></li><li><a href="/files/KAVYL_VZ2016.pdf">2016</a></li><li><a href="/files/KAVYL_VZ2017.pdf">2017</a></li><li><a href="/files/KAVYL_VZ2018.pdf">2018</a></li><li><a href="/files/KAVYL_VZ2019.pdf">2019</a></li><li><a href="/files/KAVYL_VZ2020.pdf">2020</a></li><li><a href="/files/KAVYL_VZ2021_preview.pdf">2021</a></li></ul>',
     created_by: {
       id: 1,
       firstname: 'Mariánka',
@@ -5261,7 +5335,7 @@ export const stranky = [
   {
     id: 12,
     Nazev: 'Projekty',
-    Text: '<h2>Podpora projektů</h2><p>Přispět na činnost spolku a jeho projekty můžete jednoduše prostřednictvím portálu<a href="https://www.darujme.cz/organizace/1200147"> darujme.cz</a></p><p>Děkujeme za pravidelnou podporu naší činnosti <strong>MČ Líšeň</strong>, magistrátu města <strong>Brna</strong>, městysu <strong>Pozořice</strong> a obci <strong>Viničné Šumice</strong>, moc si toho vážíme!</p><h2>NNO Slavkovské bojiště v přírodě</h2><p>Realizace projektu: 1. 9. 2020 - 30. 6. 2023</p><p>Registrační číslo: CZ.02.3.68/0.0/0.0/18_071/0016580</p><p>Projekt je podpořen v rámci Operačního programu Výzkum, vývoj a vzdělávání MŠMT hrazený <a href="https://ec.europa.eu/info/funding-tenders/funding-opportunities/funding-programmes/overview-funding-programmes/european-structural-and-investment-funds_cs">Evropskými strukturálními a investičními fondy</a>.</p><p>Podílíme se na projektu <a href="https://slavkovskebojiste.cz/">MAS Slavkovské bojiště</a>, který má za cíl podpořit nabídku neformálního vzdělávání a zvýšit jeho kvalitu na území MAS Slavkovské bojiště. V rámci projektu chceme sdílet zkušenosti s přírodní pedagogikou a obohatit se o zkušenosti s jinými metodami vzdělávání, rozvinout nové poznatky v programech zaměřených na environmentální výchovu a zvýšit kvalifikaci našich lektorů.</p><h2>Příroda - místo setkávání (2021)</h2><p>Motivace a inspirace rodin ke společně strávenému času v přírodě.<br>1. příprava a online sdílení námětů pro rodiče na aktivity s dětmi v přírodě<br>2. realizace volnočasových aktivit pro rodiny s dětmi v přírodě - pravidelné kroužky, vytvoření lesní stezky<br>3. cyklus setkání seniorů s dětmi Rok plný řemesel – zaměřený na řemesla spjatá s přírodou</p><p>Projekt podporuje Jihomoravský kraj.</p><h2>Mokřad na hájence Na Jezerách (2021–22)</h2><p>Spolek Kavyl má pro své aktivity k dispozici areál, který dlouhodobě přetváří na permakulturní zahradu s výukovými prvky. Pozemek je v údolí, na které stéká voda z okolí. V rámci projektu zde proto vytváříme retenční místo – mokřad osázený rostlinami. Vzniklý mokřad přirozeně obohatí pestrost zahrady, stane se domovem pro další typy živočichů &nbsp;a rostlin. Na tento prvek chceme navázat rozšířením výukových programů a seminářů pro školy a veřejnost.</p><p>Projekt podporuje Nadace Veronica.</p><h2>Letní kempy v přírodě Moravského krasu (2021)</h2><p>V rámci projektu MŠMT jsou podpořeny 4 běhy příměstských táborů pro děti 1. stupně základnich škol na podporu socializace a dovedností po uzavření škol. 60 dětí má účast na táborech zdarma, včetně zajištěného celodenního stravování.</p><h2>Ekologická výchova (2021)</h2><p>Dětem z environmentálního kroužku Zvoneček a LMŠ Mariánka nabízíme pestrý program a dílny zaměřené na práci s přírodními materiály a poznávání přírody.</p><p>Projekt podporuje Magistrát města Brna.</p><h2>Rodina a průvodci - spolupráce při výchově (2020)</h2><p>Cyklus přednášek a seminářů na téma výchova.</p><ul><li>Vývojová psychologie</li><li>Original Play, muzikoterapie, dramaterapie</li><li>Negativní projevy chování dětí</li></ul><p>Projekt podporuje Magistrát města Brna.</p><h2>Kořeny a křídla v rodině (2020)</h2><p>Programy podporující mezigenerační soužití - přednášky, kroužky pro děti s doprovodem, sdílení tradic, nabídka aktivit pro pro společné trávení volného času.</p><p>Projekt podporuje Jihomoravský kraj.</p><h2>Rodinné stříbro (2018)</h2><p>Cyklus přednášek a seminářů na téma výchova a vzdělávání.</p><ul><li>Svátky a tradice (a jejich místo v rodině) (lektorka Johanna Passerin)</li><li>Jsem nejlepší rodič pro své dítě (lektorka Alena Laláková)</li><li>Jak prohlubovat svůj vztah s dítětem formou uměleckých terapií (různí lektoři)</li><li>Vývojová psychologie (lektorka Alena Laláková)</li></ul><h2>Stavíme jurtu pro Stromík (2017-18)</h2><p>Snažíme se, aby lesní klub Stromík byl příjemným místem setkávání. Od září 2017 slouží dětem pro odpočinek a spolku jako prostor pro veřejné aktivity nová jurta. Podpořit projekt můžete<a href="https://www.darujme.cz/projekt/1200631"> zde.</a></p><h2>Jsem nejlepší rodič pro své dítě II (2018)</h2><p>Nabídka prožitkových aktivit v přírodě v průběhu celého roku. Smyslem projektu je ukázat rodičům a prarodičům netradiční možnosti trávení společného času v přírodě prožitkem, pohybem a tvořením.</p><h2>Návrat ke kořenům (2017)</h2><p>Programy pro děti předškolního a mladšího školního věku financované z dotací JMK EVVO 2017. Cílem je podpořit smysl pro ekologii a trvale udržitelný způsob života tak, jak je dětem v tomto věku vlastní - hrou, tvořivou činností, zážitkem. Programy seznamují děti s původními způsoby hospodaření, zpracování textilu, dřeva a potravin a umožňují konfrontaci se současným velkoprůmyslovým a nešetrným zpracováváním.</p><h2>Jsem nejlepší rodič pro svoje dítě (2017)</h2><p>Cyklus seminářů, které podporují rodiče a prarodiče v jejich vychovatelských kompetencích, harmonické mezigenerační soužití a pomáhají v integraci nově přistěhovalých rodin do stávající vesnické komunity.</p><p>Vzdělávací programy organizuje Kavyl z.s. a spolufinancuje JMK z dotačního programu Podpora služeb pro rodiny poskytovaných nestátními neziskovými organizacemi pro rok 2017.</p><h2>Projekt Zahrada pro radost (2015)</h2><p>Projekt na úpravu zahrady ve Stromíku financovaný nadací Veronika. Bylo zakoupeno nářadí, bylinky, ovocné stromy a materiál na výstavbu vyvýšených záhonů a bylinkové spirály.</p>',
+    Text: '<h2>Podpora projektů</h2><p>Přispět na činnost spolku a jeho projekty můžete jednoduše prostřednictvím portálu<a href="https://www.darujme.cz/organizace/1200147"> darujme.cz</a></p><p>Děkujeme za pravidelnou podporu naší činnosti <strong>MČ Líšeň</strong>, magistrátu města <strong>Brna</strong>, městysu <strong>Pozořice</strong> a obci <strong>Viničné Šumice</strong>, moc si toho vážíme!</p><h2>NNO Slavkovské bojiště v přírodě</h2><p>Realizace projektu: 1. 9. 2020 - 30. 6. 2023</p><p>Registrační číslo: CZ.02.3.68/0.0/0.0/18_071/0016580</p><p>Projekt je podpořen v rámci Operačního programu Výzkum, vývoj a vzdělávání MŠMT hrazený <a href="https://ec.europa.eu/info/funding-tenders/funding-opportunities/funding-programmes/overview-funding-programmes/european-structural-and-investment-funds_cs">Evropskými strukturálními a investičními fondy</a>.</p><p>Podílíme se na projektu <a href="https://slavkovskebojiste.cz/">MAS Slavkovské bojiště</a>, který má za cíl podpořit nabídku neformálního vzdělávání a zvýšit jeho kvalitu na území MAS Slavkovské bojiště. V rámci projektu chceme sdílet zkušenosti s přírodní pedagogikou a obohatit se o zkušenosti s jinými metodami vzdělávání, rozvinout nové poznatky v programech zaměřených na environmentální výchovu a zvýšit kvalifikaci našich lektorů.</p><h2>Příroda jako ateliér pro malé i velké umělce (2022)</h2><p>V tomto projektu chceme našimi aktivitami inspirovat rodiny ke společnému tvoření v přírodě - využití přírodních materiálů, naučit děti i dospělé vnímat přírodu jako estetický prvek. Projekt je podpořen Jihomoravským krajem.</p><h2>Kryté zázemí pro kroužky a tábory (2022)</h2><p>Zajištění týpí pro volnočasové aktivity dětí. Projekt je podpořen Jihomoravským krajem.</p><h2>Spolu v přírodě (2022)</h2><p>Nabízíme kroužky pro maminky na mateřské dovolené a další aktivity pro rodiny v líšeňské přírodě. Projekt je podpořen Statutárním městem Brnem.</p><h2>Příroda - místo setkávání (2021)</h2><p>Motivace a inspirace rodin ke společně strávenému času v přírodě.<br>1. příprava a online sdílení námětů pro rodiče na aktivity s dětmi v přírodě<br>2. realizace volnočasových aktivit pro rodiny s dětmi v přírodě - pravidelné kroužky, vytvoření lesní stezky<br>3. cyklus setkání seniorů s dětmi Rok plný řemesel – zaměřený na řemesla spjatá s přírodou</p><p>Projekt podporuje Jihomoravský kraj.</p><h2>Mokřad na hájence Na Jezerách (2021–22)</h2><p>Spolek Kavyl má pro své aktivity k dispozici areál, který dlouhodobě přetváří na permakulturní zahradu s výukovými prvky. Pozemek je v údolí, na které stéká voda z okolí. V rámci projektu zde proto vytváříme retenční místo – mokřad osázený rostlinami. Vzniklý mokřad přirozeně obohatí pestrost zahrady, stane se domovem pro další typy živočichů &nbsp;a rostlin. Na tento prvek chceme navázat rozšířením výukových programů a seminářů pro školy a veřejnost.</p><p>Projekt podporuje Nadace Veronica.</p><h2>Letní kempy v přírodě Moravského krasu (2021)</h2><p>V rámci projektu MŠMT jsou podpořeny 4 běhy příměstských táborů pro děti 1. stupně základnich škol na podporu socializace a dovedností po uzavření škol. 60 dětí má účast na táborech zdarma, včetně zajištěného celodenního stravování.</p><h2>Ekologická výchova (2021)</h2><p>Dětem z environmentálního kroužku Zvoneček a LMŠ Mariánka nabízíme pestrý program a dílny zaměřené na práci s přírodními materiály a poznávání přírody.</p><p>Projekt podporuje Magistrát města Brna.</p><h2>Rodina a průvodci - spolupráce při výchově (2020)</h2><p>Cyklus přednášek a seminářů na téma výchova.</p><ul><li>Vývojová psychologie</li><li>Original Play, muzikoterapie, dramaterapie</li><li>Negativní projevy chování dětí</li></ul><p>Projekt podporuje Magistrát města Brna.</p><h2>Kořeny a křídla v rodině (2020)</h2><p>Programy podporující mezigenerační soužití - přednášky, kroužky pro děti s doprovodem, sdílení tradic, nabídka aktivit pro pro společné trávení volného času.</p><p>Projekt podporuje Jihomoravský kraj.</p><h2>Rodinné stříbro (2018)</h2><p>Cyklus přednášek a seminářů na téma výchova a vzdělávání.</p><ul><li>Svátky a tradice (a jejich místo v rodině) (lektorka Johanna Passerin)</li><li>Jsem nejlepší rodič pro své dítě (lektorka Alena Laláková)</li><li>Jak prohlubovat svůj vztah s dítětem formou uměleckých terapií (různí lektoři)</li><li>Vývojová psychologie (lektorka Alena Laláková)</li></ul><h2>Stavíme jurtu pro Stromík (2017-18)</h2><p>Snažíme se, aby lesní klub Stromík byl příjemným místem setkávání. Od září 2017 slouží dětem pro odpočinek a spolku jako prostor pro veřejné aktivity nová jurta. Podpořit projekt můžete<a href="https://www.darujme.cz/projekt/1200631"> zde.</a></p><h2>Jsem nejlepší rodič pro své dítě II (2018)</h2><p>Nabídka prožitkových aktivit v přírodě v průběhu celého roku. Smyslem projektu je ukázat rodičům a prarodičům netradiční možnosti trávení společného času v přírodě prožitkem, pohybem a tvořením.</p><h2>Návrat ke kořenům (2017)</h2><p>Programy pro děti předškolního a mladšího školního věku financované z dotací JMK EVVO 2017. Cílem je podpořit smysl pro ekologii a trvale udržitelný způsob života tak, jak je dětem v tomto věku vlastní - hrou, tvořivou činností, zážitkem. Programy seznamují děti s původními způsoby hospodaření, zpracování textilu, dřeva a potravin a umožňují konfrontaci se současným velkoprůmyslovým a nešetrným zpracováváním.</p><h2>Jsem nejlepší rodič pro svoje dítě (2017)</h2><p>Cyklus seminářů, které podporují rodiče a prarodiče v jejich vychovatelských kompetencích, harmonické mezigenerační soužití a pomáhají v integraci nově přistěhovalých rodin do stávající vesnické komunity.</p><p>Vzdělávací programy organizuje Kavyl z.s. a spolufinancuje JMK z dotačního programu Podpora služeb pro rodiny poskytovaných nestátními neziskovými organizacemi pro rok 2017.</p><h2>Projekt Zahrada pro radost (2015)</h2><p>Projekt na úpravu zahrady ve Stromíku financovaný nadací Veronika. Bylo zakoupeno nářadí, bylinky, ovocné stromy a materiál na výstavbu vyvýšených záhonů a bylinkové spirály.</p>',
     created_by: {
       id: 1,
       firstname: 'Mariánka',
@@ -5451,7 +5525,7 @@ export const stranky = [
   {
     id: 6,
     Nazev: 'Tábory',
-    Text: '<p>Každoročně pořádáme prakticky po celé letní prázdniny příměstské tábory v zázemí <a href="http://www.stromik.cz/">Stromíku</a> v Pozořicích a <a href="http://www.lesnimarianka.cz/">Mariánky</a> v Líšni. Společně s dětmi pronikáme do tajů přírody Moravského krasu, zažíváme dobrodružství a na křídlech fantazie se stáváme tím, o čem často jen sníme. Naši lektoři mají bohaté zkušenosti s dětmi z lesních školek a environmentálních programů pro školy.</p><p>Naše tábory jsou určeny zejména pro děti ve věku 3–7 let, které ještě nechodí do školy, vybrané turnusy jsou také pro děti 1. stupně ZŠ. Máte-li děti různého věku, můžete je ve vybraných termínech přihlásit společně, protože otevíráme dvě paralelní skupiny s vlastním programem.&nbsp;</p><p>Provozní doba tábora je vždy od pondělí do pátku od 8 do 16 h.</p><p>Máte-li dotazy, nebo chcete-li vystavit fakturu pro zaměstnavatele či potvrzení žádosti o příspěvek pojišťovny, pište na aktivity@lesnikavyl.cz.</p><h3>Tábory 2022</h3><p><i>Aktuálně 21. 4.: Děkujeme za velký zájem o tábory. Kapacita je v současné chvíli zcela naplněna. Další přihlášené táborníky evidujeme jako náhradníky a ozveme se vám, když se uvolní místo.</i></p><p>V letošním roce si můžete vybírat z následujících táborů:</p><p><i>Mariánka</i></p><p><i>11. – 15. 7. (3–7 let) - Indiáni ze Samot</i></p><p><i>15. – 19. 8. (3–7 let) - Čarování s přírodou</i></p><p><i>Stromík</i></p><p><i>18. – 22. 7. (3–7 let a 7–10 let) - Dobrodružství s Bobem a Bobkem</i></p><p><i>25. – 29. 7. (3–7 let) - Lesní strašidýlka</i></p><p><i>1.– 5. 8. (5–9 let) - Hurá do lesa!</i></p><p><i>8. – 12. 8. (3–7 let) - V říši divů</i></p><p>Cena tábora je 2 200 Kč. V ceně není zahrnut oběd (60–75 Kč dle dodavatele).</p><p>Přihlašovat se můžete online – PŘIHLÁŠKA.&nbsp;</p><p>Podrobné informace k organizaci najdete v přihlášce, k tématům táborů pak <a href="https://drive.google.com/file/d/1npm9cp3x9xRspFhMAxT4u1za-dCm1_ts/view?usp=sharing">zde</a>.</p><p>Těšíme se na vaše děti a věříme, že si konečně léto užijí venku a se spoustou kamarádů!</p>',
+    Text: '<p>Každoročně pořádáme prakticky po celé letní prázdniny příměstské tábory v zázemí <a href="http://www.stromik.cz/">Stromíku</a> v Pozořicích a <a href="http://www.lesnimarianka.cz/">Mariánky</a> v Líšni. Společně s dětmi pronikáme do tajů přírody Moravského krasu, zažíváme dobrodružství a na křídlech fantazie se stáváme tím, o čem často jen sníme. Naši lektoři mají bohaté zkušenosti s dětmi z lesních školek a environmentálních programů pro školy.</p><p>Naše tábory jsou určeny pro děti ve věku 3,5–7 let, které ještě nechodí do školy. Vybrané tábory jsou i pro školní děti (u termínu je uvedený věk). Jsou-li u jednoho termínu a místa uvedeny dva tábory, znamená to, že organizujeme dvě skupiny (předškolní a školní) se samostatným programem, tak abyste mohli přihlásit najednou sourozence různého věku.&nbsp;</p><p>Provozní doba tábora je vždy od pondělí do pátku od 8 do 16 h.</p><p>Máte-li dotazy, nebo chcete-li vystavit fakturu pro zaměstnavatele či potvrzení žádosti o příspěvek pojišťovny, pište na aktivity@lesnikavyl.cz.</p><h3>Tábory 2023</h3><p><i>Příměstské tábory se budou konat v následujících termínech. <br/><br/> Brno-Líšeň (Mariánka)<br/> 10. - 14. 7. (3,5 – 7 let) Kouzelný les a jeho obyvatelé<br/> 17. - 21. 7. (5 – 8 let) Bylo, nebylo a co bude dál? <br/> 21. - 25. 8. (3,5 – 7 let) Dobrodružství v Čarolese<br/><br/>Pozořice (Stromík) <br/>10. - 14. 7. (1. – 3. třída) Hmyzí detektivové<br/>24. - 28. 7. (3,5 – 7 let a 7–10 let) Indiánskou stezkou<br/> 7. - 11. 8. (5 – 10 let) Mauglího dobrodružství <br/>14. - 18. 8. (3,5 – 7 let) Byla jednou jedna nota<br/> 21. - 25. 8. (3,5 – 7 let) Kouzelný les<br/><br/>Cena tábora je 2 500 Kč.<br/><br/>Přihlašovat můžete děti prostřednictvím <a href="https://forms.gle/raR2sCa3uFJmLZJR6">ONLINE PŘIHLÁŠKY</a>.<br/><br/>Těšíme se v létě na viděnou!</i>',
     created_by: {
       id: 1,
       firstname: 'Mariánka',

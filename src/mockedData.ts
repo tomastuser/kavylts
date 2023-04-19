@@ -4476,6 +4476,40 @@ export const aktuality = [
     updated_at: '2022-09-29T16:18:18.645Z',
     Image: null,
   },
+  {
+    id: 90,
+    Nazev: 'Zvoneček jaro 2023',
+    Text: '<p>Srdečně zveme na oblíbený kroužek Zvoneček pro děti od 1 do 3 let s doprovodem! Startujeme už 15. března.</p><p>Setkávat se budeme na naší zahradě ve:</p><p>STŘEDY od 9:30 do 11:30</p><p>Dvanáct dopolední můžete strávit v zahradě a blízkém lese, hrát si, tvořit, zpívat a radovat se společně se svými dětmi či vnoučaty z probouzení jarní přírody.</p><p>Podrobnosti a přihlášku najdete <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1Y6EweGSEb30fGYOwp6K-fcu-tM7559jFa6d7FYqS4d7gtg/viewform">zde</a>.</p><p>Těšíme se na vás i vaše děti!</p>',
+    created_at: '2022-11-15T16:37:19.154Z',
+    updated_at: '2022-11-15T16:37:19.166Z',
+    Image: null,
+  },
+  {
+    id: 91,
+    Nazev: 'Projektové dny pro školy',
+    Text: '<p>Milé paní učitelky,</p><p>srdečně zveme vaše třídy na výukové environmentální programy u nás na hájence! Na naší zahradě i v blízkém lese máme celoročně připravený pestrý výběr témat. Na své si přijdou děti od 3 do 11 let. Podrobnosti najdete <a href="/enviroprogramy">zde</a>.</p><p>Těšíme se na vás po celý školní rok!</p>',
+    created_at: '2022-03-14T15:07:22.812Z',
+    updated_at: '2022-03-14T15:08:11.512Z',
+    Image: null,
+  },
+  {
+    id: 92,
+    Nazev: 'Tábory 2023',
+    Text: '<p>Také už se nemůžete dočkat léta a vaše děti prázdninových dobrodružství?&nbsp;</p><p>Srdečně zveme na naše příměstské tábory!</p><p>Podrobnosti najdete <a href="https://lesnikavyl.cz/tabory">zde</a>.</p>',
+    created_at: '2022-03-14T15:07:22.812Z',
+    updated_at: '2022-03-14T15:08:11.512Z',
+    Image: {
+      url: 'https://lesnikavyl.cz/images/tabory23.jpg',
+    },
+  },
+  {
+    id: 93,
+    Nazev: 'Den otevřených vrátek',
+    Text: '<p>Myslíte si, že je pro vaše děti lesní školka to pravé?</p><p>Srdečně zveme na Den otevřených vrátek!</p><p><strong>13. dubna odpoledne</strong></p><p>Přijďte se podívat a poptat, jak to v LMŠ Stromík a v LK Jezerka chodí.</p><p>Zápis do LK Jezerka bude 10. května 2023</p>',
+    created_at: '2022-03-14T15:07:22.812Z',
+    updated_at: '2022-03-14T15:08:11.512Z',
+    Image: null,
+  },
 ];
 
 export const clenove = [
@@ -5525,7 +5559,7 @@ export const stranky = [
   {
     id: 6,
     Nazev: 'Tábory',
-    Text: '<p>Každoročně pořádáme prakticky po celé letní prázdniny příměstské tábory v zázemí <a href="http://www.stromik.cz/">Stromíku</a> v Pozořicích a <a href="http://www.lesnimarianka.cz/">Mariánky</a> v Líšni. Společně s dětmi pronikáme do tajů přírody Moravského krasu, zažíváme dobrodružství a na křídlech fantazie se stáváme tím, o čem často jen sníme. Naši lektoři mají bohaté zkušenosti s dětmi z lesních školek a environmentálních programů pro školy.</p><p>Naše tábory jsou určeny pro děti ve věku 3,5–7 let, které ještě nechodí do školy. Vybrané tábory jsou i pro školní děti (u termínu je uvedený věk). Jsou-li u jednoho termínu a místa uvedeny dva tábory, znamená to, že organizujeme dvě skupiny (předškolní a školní) se samostatným programem, tak abyste mohli přihlásit najednou sourozence různého věku.&nbsp;</p><p>Provozní doba tábora je vždy od pondělí do pátku od 8 do 16 h.</p><p>Máte-li dotazy, nebo chcete-li vystavit fakturu pro zaměstnavatele či potvrzení žádosti o příspěvek pojišťovny, pište na aktivity@lesnikavyl.cz.</p><h3>Tábory 2023</h3><p><i>Příměstské tábory se budou konat v následujících termínech. <br/><br/> Brno-Líšeň (Mariánka)<br/> 10. - 14. 7. (3,5 – 7 let) Kouzelný les a jeho obyvatelé<br/> 17. - 21. 7. (5 – 8 let) Bylo, nebylo a co bude dál? <br/> 21. - 25. 8. (3,5 – 7 let) Dobrodružství v Čarolese<br/><br/>Pozořice (Stromík) <br/>10. - 14. 7. (1. – 3. třída) Hmyzí detektivové<br/>24. - 28. 7. (3,5 – 7 let a 7–10 let) Indiánskou stezkou<br/> 7. - 11. 8. (5 – 10 let) Mauglího dobrodružství <br/>14. - 18. 8. (3,5 – 7 let) Byla jednou jedna nota<br/> 21. - 25. 8. (3,5 – 7 let) Kouzelný les<br/><br/>Cena tábora je 2 500 Kč.<br/><br/>Přihlašovat můžete děti prostřednictvím <a href="https://forms.gle/raR2sCa3uFJmLZJR6">ONLINE PŘIHLÁŠKY</a>.<br/><br/>Těšíme se v létě na viděnou!</i>',
+    Text: '<p>Každoročně pořádáme prakticky po celé letní prázdniny příměstské tábory v zázemí <a href="http://www.stromik.cz/">Stromíku</a> v Pozořicích a <a href="http://www.lesnimarianka.cz/">Mariánky</a> v Líšni. Společně s dětmi pronikáme do tajů přírody Moravského krasu, zažíváme dobrodružství a na křídlech fantazie se stáváme tím, o čem často jen sníme. Naši lektoři mají bohaté zkušenosti s dětmi z lesních školek a environmentálních programů pro školy.</p><p>Naše tábory jsou určeny pro děti ve věku 3,5–7 let, které ještě nechodí do školy. Vybrané tábory jsou i pro školní děti (u termínu je uvedený věk). Jsou-li u jednoho termínu a místa uvedeny dva tábory, znamená to, že organizujeme dvě skupiny (předškolní a školní) se samostatným programem, tak abyste mohli přihlásit najednou sourozence různého věku.&nbsp;</p><p>Provozní doba tábora je vždy od pondělí do pátku od 8 do 16 h.</p><p>Máte-li dotazy, nebo chcete-li vystavit fakturu pro zaměstnavatele či potvrzení žádosti o příspěvek pojišťovny, pište na <a href="aktivity@lesnikavyl.cz">aktivity@lesnikavyl.cz</a>, případně volejte na 608 368 065.</p><h3>Tábory 2023</h3><p><i>Příměstské tábory se budou konat v následujících termínech. <br/><br/> Brno-Líšeň (Mariánka)<br/> 10. - 14. 7. (3,5 – 7 let) Kouzelný les a jeho obyvatelé<br/> 17. - 21. 7. (5 – 8 let) Bylo, nebylo a co bude dál? <br/> 21. - 25. 8. (3,5 – 7 let) Dobrodružství v Čarolese<br/><br/>Pozořice (Stromík) <br/>10. - 14. 7. (1. – 3. třída) Hmyzí detektivové<br/>24. - 28. 7. (3,5 – 7 let a 7–10 let) Indiánskou stezkou<br/> 7. - 11. 8. (5 – 10 let) Mauglího dobrodružství - obsazeno<br/>14. - 18. 8. (3,5 – 7 let) Byla jednou jedna nota<br/> 21. - 25. 8. (3,5 – 7 let) Kouzelný les<br/><br/>Cena tábora je 2 500 Kč.<br/><br/>Přihlašovat můžete děti prostřednictvím <a href="https://forms.gle/raR2sCa3uFJmLZJR6">ONLINE PŘIHLÁŠKY</a>.<br/><br/>Zajímají-li vás podrobněji jednotlivá témata táborů, podívejte se na <a href="https://www.lesnikavyl.cz/files/tabory_anotace_2023.png">anotace</a>.<br/><br/>Těšíme se v létě na viděnou!</i>',
     created_by: {
       id: 1,
       firstname: 'Mariánka',
@@ -5772,7 +5806,7 @@ export const stranky = [
   {
     id: 9,
     Nazev: 'Kontakt2',
-    Text: '<h3>Kavyl z.s.</h3><ul><li>Sídlo:</li><li>Hostěnická 626, 664 07 Pozořice</li><li>IČ: 229 09 320</li><li>Číslo účtu: 2601593939/2010</li><li>Datová schránka: itb74qd</li><li><a href="https://www.facebook.com/spolekKavyl">Facebook Kavyl</a></li></ul><h3>Klára Krchňavá</h3><ul><li>tel.: 777 145 343</li><li>e-mail: klara.krchnava@lesnikavyl.cz</li></ul><h3>obecné informace</h3><p>e-mail: info@lesnikavyl.cz</p><h3>Lesní klub Jezerka</h3><p>e-mail: jezerka@lesnikavyl.cz<br>koordinátorka: 604 523 160</p><h3>volnočasové aktivity</h3><p>e-mail: aktivity@lesnikavyl.cz</p><h3>enviroprogramy</h3><p>e-mail: evvo@lesnikavyl.cz<br>tel.: 604 523 160</p><h3>dotace, granty</h3><p>e-mail: finance@lesnikavyl.cz</p><h3>pracovní příležitosti</h3><p>Máte-li zájem o stáži či spolupráci, kontaktujte Kláru Krchňavou.</p>',
+    Text: '<h3>Kavyl z.s.</h3><ul><li>Sídlo:</li><li>Hostěnická 626, 664 07 Pozořice</li><li>IČ: 229 09 320</li><li>Číslo účtu: 2601593939/2010</li><li>Datová schránka: itb74qd</li><li><a href="https://www.facebook.com/spolekKavyl">Facebook Kavyl</a></li></ul><h3>Klára Krchňavá</h3><ul><li>tel.: 777 145 343</li><li>e-mail: klara.krchnava@lesnikavyl.cz</li></ul><h3>obecné informace</h3><p>e-mail: info@lesnikavyl.cz</p><h3>Lesní klub Jezerka</h3><p>e-mail: jezerka@lesnikavyl.cz<br>koordinátorka: 604 523 160</p><h3>volnočasové aktivity, tábory</h3><tel.:>e-mail: aktivity@lesnikavyl.cz<br>tel.: 608 368 065</p><h3>enviroprogramy</h3><p>e-mail: evvo@lesnikavyl.cz<br>tel.: 604 523 160</p><h3>dotace, granty</h3><p>e-mail: finance@lesnikavyl.cz</p><h3>pracovní příležitosti</h3><p>Máte-li zájem o stáži či spolupráci, kontaktujte Kláru Krchňavou.</p>',
     created_by: {
       id: 1,
       firstname: 'Mariánka',

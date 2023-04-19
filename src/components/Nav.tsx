@@ -4,6 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import kavyl from '../public/kavyl.png';
 import kavylLogo from '../public/kavylLogo.png';
 import caraNavR from '../public/caraNavR.png';
+// import { aktuality, clenove, clenoveKlubu, stranky } from '../mockedData';
 
 function Nav() {
   const [navOpen, setNavOpen] = useState(false);
@@ -43,8 +44,8 @@ function Nav() {
           path: '/onas/sponzori',
         },
         {
-          name: 'Nabídka práce',
-          path: '/onas/nabidkaprace',
+          name: 'Nabídka spolupráce',
+          path: '/onas/nabidkaspoluprace',
         },
       ],
     },
@@ -169,6 +170,78 @@ function Nav() {
     setSubNavLinksOpen(subs);
   };
 
+  // const up = async () => {
+  //   for (let i = 0; i < aktuality.length; i++) {
+  //     const response = await fetch('http://new.lesnikavyl.cz/api/aktuality', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //       },
+  //       body: JSON.stringify({
+  //         data: {
+  //           Nazev: aktuality[i].Nazev,
+  //           Text: aktuality[i].Text,
+  //           ImageUrl: aktuality[i].Image?.url,
+  //         },
+  //       }),
+  //     });
+  //     console.log(response);
+  //   }
+  //   for (let i = 0; i < clenove.length; i++) {
+  //     const response = await fetch('http://new.lesnikavyl.cz/api/tym-clenove', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //       },
+  //       body: JSON.stringify({
+  //         data: {
+  //           Jmeno: clenove[i].Jmeno,
+  //           Popis: clenove[i].Popis,
+  //           Poradi: clenove[i].Poradi,
+  //           Pozice: clenove[i].Pozice,
+  //           ImageUrl: clenove[i].Image?.url,
+  //         },
+  //       }),
+  //     });
+  //     console.log(response);
+  //   }
+  //   for (let i = 0; i < clenoveKlubu.length; i++) {
+  //     const response = await fetch(
+  //       'http://new.lesnikavyl.cz/api/tym-klub-clenove',
+  //       {
+  //         method: 'POST',
+  //         headers: {
+  //           'Content-Type': 'application/json',
+  //         },
+  //         body: JSON.stringify({
+  //           data: {
+  //             Jmeno: clenoveKlubu[i].Jmeno,
+  //             Popis: clenoveKlubu[i].Popis,
+  //             Poradi: clenoveKlubu[i].Poradi,
+  //             Pozice: clenoveKlubu[i].Pozice,
+  //             ImageUrl: clenoveKlubu[i].Image?.url,
+  //           },
+  //         }),
+  //       }
+  //     );
+  //     console.log(response);
+  //   }
+  //   for (let i = 0; i < stranky.length; i++) {
+  //     const response = await fetch('http://new.lesnikavyl.cz/api/stranky', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //       },
+  //       body: JSON.stringify({
+  //         data: {
+  //           Nazev: stranky[i].Nazev,
+  //           Text: stranky[i].Text,
+  //         },
+  //       }),
+  //     });
+  //     console.log(response);
+  //   }
+  // };
   return (
     <div>
       <div className='nav'>
@@ -185,7 +258,10 @@ function Nav() {
           role='presentation'
         >
           <Link to='/'>
-            <div className='logo'>
+            <div
+              className='logo'
+              // onClick={up}
+            >
               <div className='logoCont'>
                 <img src={kavylLogo} alt='Kavyl logo' />
               </div>

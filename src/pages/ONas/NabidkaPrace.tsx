@@ -4,10 +4,10 @@ import ContentImport from '../../components/ContentImport';
 
 function NabidkaPrace() {
   return (
-    <Layout title='Nabídka práce'>
+    <Layout title='Nabídka spolupráce'>
       <div className='mainTextCont'>
         <div className='mainText'>
-          <ContentImport nazev='Nabídka práce' />
+          <ContentImport nazev='Nabídka spolupráce' />
         </div>
       </div>
     </Layout>

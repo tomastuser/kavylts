@@ -100,12 +100,20 @@ function Nav() {
       id: '4',
       subNavLinks: [
         {
-          name: 'Aktuální nabídka',
+          name: 'Ekocentrum Jezerka',
+          path: '/enviroprogramy/ekocentrum',
+        },
+        {
+          name: 'Nabídka programů',
           path: '/enviroprogramy/nabidka',
         },
         {
-          name: 'Praktické informace',
-          path: '/enviroprogramy/informace',
+          name: 'Objednávka programů',
+          path: '/enviroprogramy/objednavka',
+        },
+        {
+          name: 'Aktuální projekty',
+          path: '/enviroprogramy/aktualniprojekty',
         },
       ],
     },

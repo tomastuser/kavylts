@@ -3,17 +3,17 @@ import Layout from '../../components/Layout';
 import FotoCont from '../../components/FotoCont';
 import ContentImport from '../../components/ContentImport';
 
-const Informace = () => {
+const Objednavka = () => {
   return (
-    <Layout title='Praktické informace'>
+    <Layout title='Objednávka programu'>
       <div className='mainTextCont'>
         <div className='mainText'>
-          <ContentImport nazev='Praktické informace' />
-          <FotoCont name='INFO.jpg' alt='Informace' />
+          <ContentImport nazev='Objednávka programu' />
+          <FotoCont name='INFO.jpg' alt='Objednavka' />
         </div>
       </div>
     </Layout>
   );
 };
 
-export default Informace;
+export default Objednavka;

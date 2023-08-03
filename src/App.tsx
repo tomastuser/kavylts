@@ -17,8 +17,10 @@ import Dokumenty from './pages/ONas/Dokumenty';
 import LesniSkolky from './pages/LesniSkolky/LesniSkolky';
 import Tabory from './pages/Tabory/Tabory';
 
+import Ekocentrum from './pages/Enviroprogramy/Ekocentrum';
 import Nabidka from './pages/Enviroprogramy/Nabidka';
-import Informace from './pages/Enviroprogramy/Informace';
+import Objednavka from './pages/Enviroprogramy/Objednavka';
+import AktualniProjekty from './pages/Enviroprogramy/AktualniProjekty';
 
 import DalsiAktivityUvod from './pages/DalsiAktivity/DalsiAktivityUvod';
 import Jurta from './pages/DalsiAktivity/Jurta';
@@ -50,6 +52,7 @@ import PraktickeInfoKlub from './pages/LesniSkolky/PraktickeInfoKlub';
 import DokumentyKlub from './pages/LesniSkolky/DokumentyKlub';
 import Zapis from './pages/LesniSkolky/Zapis';
 import NabidkaPrace from './pages/ONas/NabidkaPrace';
+
 // import { aktuality, clenove, clenoveKlubu, stranky } from './mockedData';
 
 const App = () => {
@@ -120,12 +123,22 @@ const App = () => {
 
             <Route exact path='/tabory' component={Tabory} />
 
-            <Route exact path='/enviroprogramy/' component={Nabidka} />
+            <Route exact path='/enviroprogramy/' component={Ekocentrum} />
+            <Route
+              exact
+              path='/enviroprogramy/ekocentrum'
+              component={Ekocentrum}
+            />
             <Route exact path='/enviroprogramy/nabidka' component={Nabidka} />
             <Route
               exact
-              path='/enviroprogramy/informace'
-              component={Informace}
+              path='/enviroprogramy/objednavka'
+              component={Objednavka}
+            />
+            <Route
+              exact
+              path='/enviroprogramy/aktualniprojekty'
+              component={AktualniProjekty}
             />
 
             <Route exact path='/dalsiaktivity/' component={DalsiAktivityUvod} />

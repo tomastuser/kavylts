@@ -24,8 +24,6 @@ function OdrazkyUvod() {
           <li>Výletníček (Pozořice)</li>
           <li>Zvoneček (Brno-Líšeň)</li>
           <li>pro nejmenší děti ve věku 1-3 roky s doprovodem</li>
-          <li>Petrklíč (Líšeň) - přírodovědný</li>
-          <li>kroužek pro 1. a 2. třídy ZŠ</li>
         </ul>
       </div>
       <div className='caraOdrazky' />
@@ -35,7 +33,7 @@ function OdrazkyUvod() {
           <li>environmentální vzdělávání</li>
           <li>pro MŠ a 1. stupeň ZŠ</li>
           <li>v areálu a okolí pozořické</li>
-          <li>hájenky Na Jezerách</li>
+          <li>hájenky na Jezerách</li>
           <li>
             <a href='evo@lesnikavyl.cz'>evvo@lesnikavyl.cz</a>
           </li>

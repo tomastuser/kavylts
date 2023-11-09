@@ -16,7 +16,7 @@ interface ClenIF {
 interface ClenKlubuIF {
   Jmeno: string;
   Pozice: string;
-  Image: { url: string } | null;
+  Image: { data: { attributes: { url: string } } } | null;
   Popis: string;
   ImageUrl: string;
   id: number;

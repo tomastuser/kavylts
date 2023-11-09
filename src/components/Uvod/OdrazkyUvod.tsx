@@ -30,9 +30,8 @@ function OdrazkyUvod() {
       </div>
       <div className='caraOdrazky' />
       <div className='odrazkyGrid3'>
-        <h3>Enviroprogramy</h3>
+        <h3>Ekocentrum Jezerka</h3>
         <ul>
-          <li>Ekocentrum Jezerka</li>
           <li>environmentální vzdělávání</li>
           <li>pro MŠ a 1. stupeň ZŠ</li>
           <li>v areálu a okolí pozořické</li>

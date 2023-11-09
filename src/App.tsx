@@ -57,16 +57,16 @@ import NabidkaPrace from './pages/ONas/NabidkaPrace';
 
 const App = () => {
   let aktuality: AktualitaIF[] | undefined = useFetch(
-    'https://editor.lesnikavyl.cz/api/aktuality?pagination[start]=0&pagination[limit]=1000'
+    'https://editor.lesnikavyl.cz/api/aktuality?pagination[start]=0&pagination[limit]=1000&populate=*'
   );
   let clenove: ClenIF[] | undefined = useFetch(
-    'https://editor.lesnikavyl.cz/api/tym-clenove?pagination[start]=0&pagination[limit]=1000'
+    'https://editor.lesnikavyl.cz/api/tym-clenove?pagination[start]=0&pagination[limit]=1000&populate=*'
   );
   let stranky: StrankaIF[] | undefined = useFetch(
-    'https://editor.lesnikavyl.cz/api/stranky?pagination[start]=0&pagination[limit]=1000'
+    'https://editor.lesnikavyl.cz/api/stranky?pagination[start]=0&pagination[limit]=1000&populate=*'
   );
   let clenoveKlubu: ClenKlubuIF[] | undefined = useFetch(
-    'https://editor.lesnikavyl.cz/api/tym-klub-clenove?pagination[start]=0&pagination[limit]=1000'
+    'https://editor.lesnikavyl.cz/api/tym-klub-clenove?pagination[start]=0&pagination[limit]=1000&populate=*'
   );
 
   return (

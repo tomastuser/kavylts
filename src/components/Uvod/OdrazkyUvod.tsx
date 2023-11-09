@@ -7,12 +7,12 @@ function OdrazkyUvod() {
       <div className='odrazkyGrid1'>
         <h3>Lesní školky</h3>
         <ul>
-          <li>Celoroční předškolní vzdělávávní</li>
-          <li>DLK Stromík v Pozořicích</li>
+          <li>Lesní klub Jezerka (Pozořice)</li>
+          <li>LMŠ Stromík (Pozořice)</li>
           <li>
             <a href='www.stromik.cz'>www.stromik.cz</a>
           </li>
-          <li>LMŠ Mariánka v Brně-Líšni</li>
+          <li>LMŠ Mariánka (Brno-Líšeň)</li>
           <li>
             <a href='www.lesnimarianka.cz'>www.lesnimarianka.cz</a>
           </li>
@@ -22,8 +22,8 @@ function OdrazkyUvod() {
         <h3>Kroužky</h3>
         <ul>
           <li>Výletníček (Pozořice)</li>
-          <li>Zvoneček (Líšeň)</li>
-          <li>pro děti věku 1-3 let s doprovodem</li>
+          <li>Zvoneček (Brno-Líšeň)</li>
+          <li>pro nejmenší děti ve věku 1-3 roky s doprovodem</li>
           <li>Petrklíč (Líšeň) - přírodovědný</li>
           <li>kroužek pro 1. a 2. třídy ZŠ</li>
         </ul>
@@ -32,6 +32,7 @@ function OdrazkyUvod() {
       <div className='odrazkyGrid3'>
         <h3>Enviroprogramy</h3>
         <ul>
+          <li>Ekocentrum Jezerka</li>
           <li>environmentální vzdělávání</li>
           <li>pro MŠ a 1. stupeň ZŠ</li>
           <li>v areálu a okolí pozořické</li>
@@ -54,8 +55,10 @@ function OdrazkyUvod() {
       <div className='odrazkyZaver'>
         <h3>Další aktivity</h3>
         <ul>
-          <li>přednášky a semináře o výchově a vzdělávání,</li>
-          <li>tvořivé kroužky pro dospělé, kulturní a společenské akce</li>
+          <li>
+            přednášky a semináře o výchově, vzdělávání a přírodě kolem nás,
+          </li>
+          <li>kulturní a společenské akce</li>
         </ul>
       </div>
     </div>

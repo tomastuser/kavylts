@@ -21,11 +21,7 @@ const ClenTymu = ({ clen }: { clen: ClenIF }) => (
       {(clen.Image?.data || clen.ImageUrl) && (
         <img
           src={
-            clen.Image?.data
-              ? clen.Image.data.attributes.url
-              : clen.ImageUrl
-              ? clen.ImageUrl
-              : ''
+            clen.Image?.data ? clen.Image.data.attributes.url : clen.ImageUrl
           }
           alt={clen.Jmeno}
         />

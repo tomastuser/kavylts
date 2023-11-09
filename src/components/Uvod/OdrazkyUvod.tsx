@@ -23,8 +23,8 @@ function OdrazkyUvod() {
         <ul>
           <li>Výletníček (Pozořice)</li>
           <li>Zvoneček (Brno-Líšeň)</li>
-          <li>pro nejmenší děti ve věku 1-3 roky</li>
-          <li>s doprovodem</li>
+          <li>pro nejmenší děti ve věku</li>
+          <li>1-3 roky s doprovodem</li>
         </ul>
       </div>
       <div className='caraOdrazky' />

@@ -1,7 +1,7 @@
 interface AktualitaIF {
   Nazev: string;
   id: number;
-  Image: { url: string } | null;
+  Image: { data: { attributes: { url: string } } } | null;
   ImageUrl: string;
   Text: string;
 }
